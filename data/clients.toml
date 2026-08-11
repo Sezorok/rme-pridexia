@@ -1221,3 +1221,21 @@ sprSignature = '57BBD603'
 spritesFile = 'Tibia.spr'
 transparency = false
 version = 1098
+
+[[clients]]
+configType = 'dat_otb'
+datSignature = '4A10'
+dataDirectory = '1524'
+description = 'Pridexia — catalogo 15.24 do fork Nottinghster/1098extended + arte custom'
+extended = true
+frameDurations = true
+frameGroups = true
+metadataFile = 'Tibia.dat'
+name = '15.24'
+otbId = 68
+otbMajor = 3
+otbmVersions = [ 3 ]
+sprSignature = '59E48E02'
+spritesFile = 'Tibia.spr'
+transparency = false
+version = 1524
