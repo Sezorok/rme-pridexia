@@ -1,10 +1,14 @@
+<!-- client= original: "9.10" — retargetado para "15.24" pelo ext_retarget.py.
+     A declaracao antiga fica aqui porque ela diz de que epoca os ids
+     vieram, que e por onde se comeca a procurar quando um brush sai
+     errado. Retarget faz APARECER, nao valida: ver PALETAS-VALIDADAS.md. -->
 <materialsextension
 	name="All Sort Of Things"
 	url="https://otland.net/threads/extension-9-10-remere-map-editor-ver-2-2-walls-grounds-doodads-extensions.163329/"
 	author="Edgar (SlayingWorld)"
 	authorurl="https://otland.net/members/slaying-world.36678/"
 	description="New brushes etc"
-	client="9.10">
+	client="15.24">
 
 	<border id="9001"> <!-- New Sand -->
 		<borderitem edge="n"    item="10456"/>

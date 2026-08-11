@@ -1,4 +1,8 @@
-<materialsextension name="Smithing" author="SADZA" description="This adds Smithing sprites from 8.20" client="8.20">
+<!-- client= original: "8.20" — retargetado para "15.24" pelo ext_retarget.py.
+     A declaracao antiga fica aqui porque ela diz de que epoca os ids
+     vieram, que e por onde se comeca a procurar quando um brush sai
+     errado. Retarget faz APARECER, nao valida: ver PALETAS-VALIDADAS.md. -->
+<materialsextension name="Smithing" author="SADZA" description="This adds Smithing sprites from 8.20" client="15.24">
 
 	<brush name="gutter" type="wall" server_lookid="8661">
 		<wall type="pole">               <item id="8661" chance="1"/> </wall>

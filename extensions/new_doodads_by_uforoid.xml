@@ -1,8 +1,12 @@
+<!-- client= original: "8.10;8.20 - 8.31" — retargetado para "15.24" pelo ext_retarget.py.
+     A declaracao antiga fica aqui porque ela diz de que epoca os ids
+     vieram, que e por onde se comeca a procurar quando um brush sai
+     errado. Retarget faz APARECER, nao valida: ver PALETAS-VALIDADAS.md. -->
 <materialsextension
 	name="New Doodads"
 	author="Uforoid"
 	description="Adds the missing beds to the editor."
-	client="8.10;8.20 - 8.31">
+	client="15.24">
 
 	<brush name="pirate statue" type="doodad" server_lookid="5671" draggable="true" on_blocking="true" thickness="10/10">
 		<alternate> <item id="5671" chance="30"/> </alternate> <!-- south -->

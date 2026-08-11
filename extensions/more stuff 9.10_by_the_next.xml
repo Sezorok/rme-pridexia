@@ -1,9 +1,13 @@
+<!-- client= original: "9.10" — retargetado para "15.24" pelo ext_retarget.py.
+     A declaracao antiga fica aqui porque ela diz de que epoca os ids
+     vieram, que e por onde se comeca a procurar quando um brush sai
+     errado. Retarget faz APARECER, nao valida: ver PALETAS-VALIDADAS.md. -->
 <materialsextension
 	name="Miscellanous Stuff"
 	author="the_next"
 	authorurl="https://otland.net/members/the_next.157092/"
 	description="This adds a new doodad brush and give you a lot of new floors, walls etc etc.."
-	client="9.10">
+	client="15.24">
 
 	<brush name="rudder of the boat" type="doodad" server_lookid="1281" draggable="true" on_blocking="true" thickness="10/10">
 		<alternate> <item id="1281" chance="30"/> </alternate> <!-- south -->

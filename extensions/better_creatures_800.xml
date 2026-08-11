@@ -1,4 +1,8 @@
-<materialsextension name="Better creature categories" author="Devil Boy/Remere" description="More creature categories." client="8.00;8.10">
+<!-- client= original: "8.00;8.10" — retargetado para "15.24" pelo ext_retarget.py.
+     A declaracao antiga fica aqui porque ela diz de que epoca os ids
+     vieram, que e por onde se comeca a procurar quando um brush sai
+     errado. Retarget faz APARECER, nao valida: ver PALETAS-VALIDADAS.md. -->
+<materialsextension name="Better creature categories" author="Devil Boy/Remere" description="More creature categories." client="15.24">
 	<tileset name="Water creatures">
 		<creatures>
 			<creature name="Azure Frog"/>

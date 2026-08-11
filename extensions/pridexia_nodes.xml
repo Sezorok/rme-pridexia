@@ -1,0 +1,106 @@
+<!-- client= original: "10.98" — retargetado para "15.24" pelo ext_retarget.py.
+     A declaracao antiga fica aqui porque ela diz de que epoca os ids
+     vieram, que e por onde se comeca a procurar quando um brush sai
+     errado. Retarget faz APARECER, nao valida: ver PALETAS-VALIDADAS.md. -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================================
+     PRIDEXIA - Paleta de Nos de Recurso (coleta v2: nos fisicos no mapa)
+     Gerado da config viva (data/lib/pridexia/gathering.lua) em 2026-07-14.
+     Ids/sids: docs/pridexia-registry.md secao 6. Pintar SEMPRE o no CHEIO -
+     o servidor gerencia o ciclo cheio->esgotado->respawn sozinho.
+     Tocos/veios vazios estao num tileset separado APENAS como decoracao de
+     areas em ruina - nunca como no de recurso.
+     ============================================================================ -->
+<materialsextension
+	name="Pridexia Resource Nodes"
+	author="Pridexia (Fable + Code)"
+	description="Nos fisicos de coleta do Pridexia - Heavenfall: veios de minerio, arvores e deposito de sal. Pintar os CHEIOS; o servidor cuida do esgotamento/respawn."
+	client="15.24">
+
+	<!-- ================= METAL (veios) ================= -->
+	<brush name="pridexia coal vein" type="doodad" server_lookid="13994" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="13994" chance="1"/>
+	</brush>
+	<brush name="pridexia copper vein" type="doodad" server_lookid="13996" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="13996" chance="1"/>
+	</brush>
+	<brush name="pridexia tin vein" type="doodad" server_lookid="13998" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="13998" chance="1"/>
+	</brush>
+	<brush name="pridexia iron vein" type="doodad" server_lookid="14000" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14000" chance="1"/>
+	</brush>
+	<brush name="pridexia obsidian vein (2x2)" type="doodad" server_lookid="14002" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14002" chance="1"/>
+	</brush>
+	<brush name="pridexia heartstone vein (2x2)" type="doodad" server_lookid="14004" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14004" chance="1"/>
+	</brush>
+
+	<!-- ================= MADEIRA (arvores) ================= -->
+	<brush name="pridexia pine tree" type="doodad" server_lookid="14017" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14017" chance="1"/>
+	</brush>
+	<brush name="pridexia oak tree" type="doodad" server_lookid="14019" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14019" chance="1"/>
+	</brush>
+	<brush name="pridexia ash tree" type="doodad" server_lookid="14021" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14021" chance="1"/>
+	</brush>
+	<brush name="pridexia ebony tree (2x2)" type="doodad" server_lookid="14023" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14023" chance="1"/>
+	</brush>
+	<brush name="pridexia elder tree (2x2)" type="doodad" server_lookid="14025" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14025" chance="1"/>
+	</brush>
+	<brush name="pridexia dragonsblood tree" type="doodad" server_lookid="14027" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14027" chance="1"/>
+	</brush>
+
+	<!-- ================= MINERAL (sal) ================= -->
+	<brush name="pridexia salt deposit (2x2)" type="doodad" server_lookid="14040" draggable="true" on_blocking="true" thickness="100/100">
+		<item id="14040" chance="1"/>
+	</brush>
+
+	<!-- ============ ESGOTADOS - SO DECORACAO (ruinas/cenario) ============ -->
+	<brush name="pridexia depleted veins (deco)" type="doodad" server_lookid="13995" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate> <item id="13995" chance="20"/> </alternate>
+		<alternate> <item id="13997" chance="20"/> </alternate>
+		<alternate> <item id="13999" chance="20"/> </alternate>
+		<alternate> <item id="14001" chance="20"/> </alternate>
+		<alternate> <item id="14003" chance="10"/> </alternate>
+		<alternate> <item id="14005" chance="10"/> </alternate>
+	</brush>
+	<brush name="pridexia tree stumps (deco)" type="doodad" server_lookid="14018" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate> <item id="14018" chance="20"/> </alternate>
+		<alternate> <item id="14020" chance="20"/> </alternate>
+		<alternate> <item id="14022" chance="20"/> </alternate>
+		<alternate> <item id="14024" chance="15"/> </alternate>
+		<alternate> <item id="14026" chance="10"/> </alternate>
+		<alternate> <item id="14028" chance="15"/> </alternate>
+	</brush>
+
+	<tileset name="Pridexia - Recursos">
+		<doodad>
+			<brush name="pridexia coal vein"/>
+			<brush name="pridexia copper vein"/>
+			<brush name="pridexia tin vein"/>
+			<brush name="pridexia iron vein"/>
+			<brush name="pridexia obsidian vein (2x2)"/>
+			<brush name="pridexia heartstone vein (2x2)"/>
+			<brush name="pridexia pine tree"/>
+			<brush name="pridexia oak tree"/>
+			<brush name="pridexia ash tree"/>
+			<brush name="pridexia ebony tree (2x2)"/>
+			<brush name="pridexia elder tree (2x2)"/>
+			<brush name="pridexia dragonsblood tree"/>
+			<brush name="pridexia salt deposit (2x2)"/>
+		</doodad>
+	</tileset>
+	<tileset name="Pridexia - Esgotados (deco)">
+		<doodad>
+			<brush name="pridexia depleted veins (deco)"/>
+			<brush name="pridexia tree stumps (deco)"/>
+		</doodad>
+	</tileset>
+</materialsextension>
