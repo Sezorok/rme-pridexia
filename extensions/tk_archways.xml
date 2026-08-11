@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/66637-rme-extension-86-nova-paleta-archways por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Archways" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<tileset name="Archways">
+	-- www.tibiaking.com --
+	-- BY: Heyron --
+		<terrain>
+		    <item fromid="8241" toid="8242"/>
+		    <item fromid="9471" toid="9484"/>
+			<item fromid="9939" toid="9940"/>
+			<item fromid="9943" toid="9947"/>
+			<item fromid="9950" toid="9952"/>
+			<item fromid="10346"/>
+		    <item fromid="10989" toid="10998"/>
+			<item fromid="11058" toid="11061"/>
+		    <item fromid="914" toid="917"/>
+			<item fromid="1120" toid="1127"/>
+			<item fromid="1158" toid="1163"/>
+            <item fromid="9140"/>
+			<item fromid="9335" toid="9336"/>
+			<item fromid="1205" toid="1208"/>
+			<item fromid="3439" toid="3446"/>
+			<item fromid="3468"/>
+			<item fromid="3472"/>
+            <item fromid="3476" toid="3479"/>
+			<item fromid="8973"/>
+			<item fromid="3504" toid="3505"/>
+			<item fromid="6175" toid="6176"/>
+			<item fromid="6275"/>
+			<item fromid="6232" toid="6237"/>
+			<item fromid="6882" toid="6885"/>
+			<item fromid="7051" toid="7052"/>
+			<item fromid="7851" toid="7853"/>
+			<item fromid="8243" toid="8248"/>
+			<item fromid="9159" toid="9164"/>
+			<item fromid="9285" toid="9287"/>
+			<item fromid="9320" toid="9326"/>
+			<item fromid="9681"/>
+			<item fromid="9523" toid="9530"/>
+		</terrain>
+	</tileset>
+
+</materialsextension>

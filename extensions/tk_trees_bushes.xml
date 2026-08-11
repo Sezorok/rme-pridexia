@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/101855-trees-bushes-and-grass-tufts-extens%C3%A3o-rme por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Trees, Bushes, Grass" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<brush name="trees, bushes and grass tufts" type="doodad" server_lookid="2707" draggable="true" on_blocking="false" thickness="100/100">
+	-- Trees --
+		<item id="7024" chance="2"/>
+		<item id="2700" chance="2"/>
+		<item id="2701" chance="2"/>
+		<item id="2703" chance="2"/>
+		<item id="2704" chance="2"/>
+		<item id="2705" chance="2"/>
+		<item id="2706" chance="2"/>
+		<item id="2707" chance="2"/>
+		<item id="2708" chance="2"/>
+		<item id="2712" chance="2"/>
+		<item id="8313" chance="2"/>
+		
+	-- Bushes --
+		<item id="2767" chance="4"/>
+		<item id="2768" chance="4"/>
+		
+	-- Flowers --
+		<item id="4156" chance="1"/>
+		<item id="4157" chance="1"/>
+		<item id="4158" chance="1"/>
+		<item id="2740" chance="1"/>
+		<item id="2741" chance="1"/>
+		<item id="2743" chance="1"/>
+		
+	-- Stones --
+		<item id="3612" chance="1"/>
+		<item id="3621" chance="1"/>
+		<item id="3622" chance="1"/>
+		<item id="3623" chance="1"/>
+	
+	-- Grass Tufts --
+		<item id="6218" chance="30"/>
+	</brush>
+
+
+	<!-- tileset costurado pelo harvest_tibiaking.py: os brushes acima
+	     vieram sem entrada de tileset e ficariam invisiveis na paleta. -->
+	<tileset name="TK - Trees, Bushes, Grass">
+		<doodad>
+			<brush name="trees, bushes and grass tufts"/>
+		</doodad>
+	</tileset>
+</materialsextension>

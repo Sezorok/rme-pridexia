@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/42242-860-rutted-stone-tile por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Rutted Stone Tile" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<brush name="Rutted Stone Tile" type="ground" server_lookid="12234" z-order="5000">
+		<item id="12234" chance="25"/>
+		<item id="12235" chance="24"/>
+		<item id="12236" chance="23"/>
+		<item id="12237" chance="22"/>
+		
+		<border align="outer" id="559"/>
+		<border align="inner" to="none" id="0"/>
+	</brush>
+
+<border id="559"> -- Rutted Stone Tile Willian -- 
+                <borderitem edge="n" item="12255"/> 
+                <borderitem edge="e" item="12256"/> 
+                <borderitem edge="s" item="12254"/> 
+                <borderitem edge="w" item="12257"/> 
+                <borderitem edge="cnw" item="12264"/> 
+                <borderitem edge="cne" item="12265"/> 
+                <borderitem edge="csw" item="12263"/> 
+                <borderitem edge="cse" item="12262"/> 
+                <borderitem edge="dnw" item="12260"/> 
+                <borderitem edge="dne" item="12261"/> 
+                <borderitem edge="dsw" item="12259"/> 
+                <borderitem edge="dse" item="12258"/> 
+        </border>
+
+
+	<!-- tileset costurado pelo harvest_tibiaking.py: os brushes acima
+	     vieram sem entrada de tileset e ficariam invisiveis na paleta. -->
+	<tileset name="TK - Rutted Stone Tile">
+		<terrain>
+			<brush name="Rutted Stone Tile"/>
+		</terrain>
+	</tileset>
+</materialsextension>

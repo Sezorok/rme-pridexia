@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/42198-101-new-venore-extension-pack por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="New Venore" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<brush name="New Venore wall" type="wall" server_lookid="19377">
+		<wall type="horizontal">
+			<item id="19377" chance="500"/>
+                        <door id="20277" type="normal" open="false"/>
+                        <door id="20276" type="normal" open="true"/>
+                        <door id="20278" type="quest" open="false"/>
+			<door id="20279" type="quest" open="true"/>
+                        <door id="20280" type="locked" open="false"/>
+			<door id="20281" type="locked" open="true"/>
+                        <door id="20182" type="window"/>
+		</wall>
+		<wall type="vertical">
+			<item id="19376" chance="400"/>
+                        <door id="20284" type="normal" open="true"/>
+                        <door id="20285" type="normal" open="false"/>
+                        <door id="20287" type="quest" open="false"/>
+			<door id="20288" type="quest" open="true"/>
+                        <door id="20289" type="locked" open="false"/>
+			<door id="20290" type="locked" open="true"/>
+                        <door id="20185" type="window"/>
+		</wall>
+		<wall type="corner">
+			<item id="19414" chance="1000"/>
+		</wall>
+		<wall type="pole">
+			<item id="19378" chance="1000"/>
+		</wall>
+	</brush>
+
+        <brush name="New Venore Wall 2" type="wall" server_lookid="19485">
+		<wall type="horizontal">
+			<item id="19485" chance="500"/>
+                        <door id="19980" type="normal" open="false"/>
+                        <door id="19982" type="normal" open="true"/>
+                        <door id="19985" type="quest" open="false"/>
+			<door id="19986" type="quest" open="true"/>
+                        <door id="19987" type="locked" open="false"/>
+			<door id="19988" type="locked" open="true"/>
+                        <door id="19809" type="window"/>
+		</wall>
+		<wall type="vertical">
+			<item id="19481" chance="400"/>
+                        <door id="19990" type="normal" open="false"/>
+                        <door id="19991" type="normal" open="true"/>
+                        <door id="19994" type="quest" open="false"/>
+			<door id="19995" type="quest" open="true"/>
+                        <door id="19996" type="locked" open="false"/>
+			<door id="19997" type="locked" open="true"/>
+                        <door id="19808" type="window"/>
+		</wall>
+		<wall type="corner">
+			<item id="19495" chance="1000"/>
+		</wall>
+		<wall type="pole">
+			<item id="19334" chance="1000"/>
+		</wall>
+	</brush>
+
+        <brush name="Dirty Venore Wall" type="wall" server_lookid="19487">
+		<wall type="horizontal">
+			<item id="19487" chance="500"/>
+                        <door id="19810" type="window"/>
+		</wall>
+		<wall type="vertical">
+			<item id="19503" chance="400"/>
+                        <door id="19811" type="window"/>
+		</wall>
+		<wall type="corner">
+			<item id="19497" chance="1000"/>
+		</wall>
+		<wall type="pole">
+			<item id="19345" chance="1000"/>
+		</wall>
+	</brush>
+
+                <brush name="Mini Wall 1" type="wall" server_lookid="19603">
+		<wall type="horizontal">
+			<item id="19603" chance="500"/>
+		</wall>
+		<wall type="vertical">
+			<item id="19604" chance="400"/>
+		</wall>
+		<wall type="corner">
+			<item id="19605" chance="1000"/>
+		</wall>
+		<wall type="pole">
+			<item id="19606" chance="1000"/>
+		</wall>
+	</brush>
+
+                <brush name="Mini Wall 2" type="wall" server_lookid="20164">
+		<wall type="horizontal">
+			<item id="20164" chance="500"/>
+		</wall>
+		<wall type="vertical">
+			<item id="20165" chance="400"/>
+		</wall>
+		<wall type="corner">
+			<item id="20166" chance="1000"/>
+		</wall>
+		<wall type="pole">
+			<item id="20167" chance="1000"/>
+		</wall>
+	</brush>
+
+        <brush name="Mini Wall 3" type="wall" server_lookid="19898">
+		<wall type="horizontal">
+			<item id="19898" chance="500"/>
+		</wall>
+		<wall type="vertical">
+			<item id="19899" chance="400"/>
+		</wall>
+		<wall type="corner">
+			<item id="19900" chance="1000"/>
+		</wall>
+		<wall type="pole">
+			<item id="19901" chance="1000"/>
+		</wall>
+	</brush>
+ 
+        <brush name="Pilar Venore" type="doodad" server_lookid="19619" draggable="true" on_blocking="true" 
+
+thickness="15/100">
+        <composite chance="10">
+        <tile x="0" y="0" z="0"> <item id="19616"/> </tile>
+        <tile x="0" y="0" z="-1"> <item id="19617"/> </tile>
+        <tile x="0" y="0" z="-2"> <item id="19619"/> </tile>
+       </composite>
+</brush>
+
+<brush name="Pilar Venore 2" type="doodad" server_lookid="19620" draggable="true" on_blocking="true" thickness="15/100">
+        <composite chance="10">
+        <tile x="0" y="0" z="0"> <item id="19616"/> </tile>
+        <tile x="0" y="0" z="-1"> <item id="19617"/> </tile>
+        <tile x="1" y="1" z="-2"> <item id="19620"/> </tile>
+       </composite>
+</brush>
+
+<brush name="venore bed" type="doodad" server_lookid="20197" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate> -- south --
+			<composite chance="10">
+				<tile x="0" y="0"> <item id="20197"/> </tile>
+				<tile x="0" y="1"> <item id="20198"/> </tile>
+			</composite>
+		</alternate>
+		<alternate> -- east --
+			<composite chance="10">
+				<tile x="0" y="0"> <item id="20199"/> </tile>
+				<tile x="1" y="0"> <item id="20200"/> </tile>
+			</composite>
+		</alternate>
+	</brush>
+
+        <brush name="venore boy bed" type="doodad" server_lookid="20201" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate> -- south --
+			<composite chance="10">
+				<tile x="0" y="0"> <item id="20201"/> </tile>
+				<tile x="0" y="1"> <item id="20202"/> </tile>
+			</composite>
+		</alternate>
+		<alternate> -- east --
+			<composite chance="10">
+				<tile x="0" y="0"> <item id="20203"/> </tile>
+				<tile x="1" y="0"> <item id="20204"/> </tile>
+			</composite>
+		</alternate>
+	</brush>
+
+<tileset name="New Venore">
+		<terrain>
+		<brush name="New Venore wall"/>
+                <brush name="New Venore Wall 2"/>
+                <brush name="Dirty Venore Wall"/>
+                <brush name="Pilar Venore"/>
+                <brush name="Pilar Venore 2"/>
+                <brush name="venore bed"/>
+                <brush name="venore boy bed"/>
+                <brush name="venore female bed"/>
+		</terrain>
+	</tileset>
+
+<tileset name="New Venore">
+		<terrain>
+		<brush name="New Venore wall"/>
+                <brush name="New Venore Wall 2"/>
+                <brush name="Dirty Venore Wall"/>
+                <brush name="Pilar Venore"/>
+                <brush name="Pilar Venore 2"/>
+                <brush name="venore bed"/>
+                <brush name="venore boy bed"/>
+                <brush name="Mini Wall 1"/>
+                <brush name="Mini Wall 2"/>
+                <brush name="Mini Wall 3"/>
+		</terrain>
+	</tileset>
+
+</materialsextension>

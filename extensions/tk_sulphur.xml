@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/42176-860-sulphur por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Sulphur" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<brush name="Sulphur" type="ground" server_lookid="11548" z-order="3500">
+		<item id="11548" chance="10"/>
+		
+		<border align="outer" id="557"/>
+		<border align="inner" to="none" id="0"/>
+	</brush>
+
+<border id="557"> -- Sulphur Willian -- 
+                <borderitem edge="n" item="11551"/> 
+                <borderitem edge="e" item="11550"/> 
+                <borderitem edge="s" item="11549"/> 
+                <borderitem edge="w" item="11552"/> 
+                <borderitem edge="cnw" item="11559"/> 
+                <borderitem edge="cne" item="11560"/> 
+                <borderitem edge="csw" item="11558"/> 
+                <borderitem edge="cse" item="11557"/> 
+                <borderitem edge="dnw" item="11554"/> 
+                <borderitem edge="dne" item="11553"/> 
+                <borderitem edge="dsw" item="11556"/> 
+                <borderitem edge="dse" item="11555"/> 
+        </border>
+
+
+	<!-- tileset costurado pelo harvest_tibiaking.py: os brushes acima
+	     vieram sem entrada de tileset e ficariam invisiveis na paleta. -->
+	<tileset name="TK - Sulphur">
+		<terrain>
+			<brush name="Sulphur"/>
+		</terrain>
+	</tileset>
+</materialsextension>

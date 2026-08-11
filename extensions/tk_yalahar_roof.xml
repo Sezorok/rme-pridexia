@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/41775-860-yalahar-roof-j%C3%A1-pronto por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Yalahar Roof" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<brush name="yalahar roof pronto" type="doodad" server_lookid="9099" draggable="true" on_blocking="true" thickness="100/100">
+        <alternate>
+        <composite chance="10">
+        <tile x="0" y="0"> <item id="10328"/> </tile>
+        <tile x="1" y="0"> <item id="9099"/> </tile>
+        <tile x="0" y="1"> <item id="10327"/> </tile>
+        <tile x="1" y="1"> <item id="9098"/> </tile>
+        <tile x="0" y="2"> <item id="10325"/> </tile>
+        <tile x="1" y="2"> <item id="9096"/> </tile>
+        <tile x="0" y="3"> <item id="10326"/> </tile>
+        <tile x="1" y="3"> <item id="9097"/> </tile>
+        <tile x="0" y="4"> <item id="9540"/> </tile>
+        <tile x="1" y="4"> <item id="9541"/> </tile>
+        </composite>
+        </alternate>
+        
+        <alternate>
+        <composite chance="10">
+        <tile x="0" y="0"> <item id="10334"/> </tile>
+        <tile x="1" y="0"> <item id="10333"/> </tile>
+        <tile x="2" y="0"> <item id="10335"/> </tile>
+        <tile x="3" y="0"> <item id="10336"/> </tile>
+        <tile x="4" y="0"> <item id="9539"/> </tile>
+        <tile x="0" y="1"> <item id="9093"/> </tile>
+        <tile x="1" y="1"> <item id="9092"/> </tile>
+        <tile x="2" y="1"> <item id="9094"/> </tile>
+        <tile x="3" y="1"> <item id="9095"/> </tile>
+        <tile x="4" y="1"> <item id="9544"/> </tile>
+        </composite>
+        </alternate>
+        
+        <alternate>
+        <composite chance="10">
+        <tile x="0" y="0"> <item id="10328"/> </tile>
+        <tile x="1" y="0"> <item id="9099"/> </tile>
+        <tile x="0" y="1"> <item id="10330"/> </tile>
+        <tile x="1" y="1"> <item id="10329"/> </tile>
+        <tile x="0" y="2"> <item id="10326"/> </tile>
+        <tile x="1" y="2"> <item id="9097"/> </tile>
+        <tile x="0" y="3"> <item id="9540"/> </tile>
+        <tile x="1" y="3"> <item id="9553"/> </tile>
+        </composite>
+        </alternate>
+        
+        <alternate>
+        <composite chance="10">
+        <tile x="0" y="0"> <item id="10334"/> </tile>
+        <tile x="1" y="0"> <item id="10338"/> </tile>
+        <tile x="2" y="0"> <item id="10336"/> </tile>
+        <tile x="3" y="0"> <item id="9539"/> </tile>
+        <tile x="0" y="1"> <item id="9093"/> </tile>
+        <tile x="1" y="1"> <item id="10337"/> </tile>
+        <tile x="2" y="1"> <item id="9095"/> </tile>
+        <tile x="3" y="1"> <item id="9544"/> </tile>
+        </composite>
+        </alternate>
+        
+        <alternate>
+        <composite chance="10">
+        <tile x="0" y="0"> <item id="10328"/> </tile>
+        <tile x="1" y="0"> <item id="9099"/> </tile>
+        <tile x="0" y="1"> <item id="10326"/> </tile>
+        <tile x="1" y="1"> <item id="9097"/> </tile>
+        <tile x="0" y="2"> <item id="9540"/> </tile>
+        <tile x="1" y="2"> <item id="9541"/> </tile>
+        </composite>
+        </alternate>
+        
+        <alternate>
+        <composite chance="10">
+        <tile x="0" y="0"> <item id="10334"/> </tile>
+        <tile x="1" y="0"> <item id="10336"/> </tile>
+        <tile x="0" y="1"> <item id="9093"/> </tile>
+        <tile x="1" y="1"> <item id="9095"/> </tile>
+        <tile x="2" y="0"> <item id="9551"/> </tile>
+        <tile x="2" y="1"> <item id="9544"/> </tile>
+        </composite>
+        </alternate>
+        
+        <alternate>
+        <composite chance="10">
+        <tile x="0" y="0"> <item id="10332"/> </tile>
+        <tile x="1" y="0"> <item id="10331"/> </tile>
+        <tile x="0" y="1"> <item id="9540"/> </tile>
+        <tile x="1" y="1"> <item id="9541"/> </tile>
+        </composite>
+        </alternate>
+        
+        <alternate>
+        <composite chance="10">
+        <tile x="0" y="0"> <item id="10340"/> </tile>
+        <tile x="0" y="1"> <item id="10339"/> </tile>
+        <tile x="1" y="0"> <item id="9539"/> </tile>
+        <tile x="1" y="1"> <item id="9544"/> </tile>
+        </composite>
+        </alternate>
+        -- BY: Superion --
+</brush>
+
+<tileset name="Roofs">
+<terrain>
+<brush name="yalahar roof pronto"/>
+<brush name="roof 1"/>
+<brush name="roof 2"/>
+</terrain>
+</tileset>
+
+</materialsextension>

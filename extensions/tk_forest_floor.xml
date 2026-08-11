@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/42061-1010-forest-floor por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Forest Floor" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<brush name="forest floor" type="ground" server_lookid="20776" z-order="3500">
+		<item id="20776" chance="25"/>
+		<item id="20777" chance="16"/>
+		<item id="20778" chance="17"/>
+		<item id="20779" chance="18"/>
+		<item id="20780" chance="19"/>
+		<item id="20781" chance="20"/>
+		
+		<border align="outer" id="556"/>
+		<border align="inner" to="none" id="10"/>
+	</brush>
+
+<border id="556"> -- Forest Floor Willian -- 
+                <borderitem edge="n" item="21113"/> 
+                <borderitem edge="e" item="21124"/> 
+                <borderitem edge="s" item="21123"/> 
+                <borderitem edge="w" item="21114"/> 
+                <borderitem edge="cnw" item="21115"/> 
+                <borderitem edge="cne" item="21116"/> 
+                <borderitem edge="csw" item="21117"/> 
+                <borderitem edge="cse" item="21118"/> 
+                <borderitem edge="dnw" item="21119"/> 
+                <borderitem edge="dne" item="21120"/> 
+                <borderitem edge="dsw" item="21121"/> 
+                <borderitem edge="dse" item="21122"/> 
+        </border>
+
+
+	<!-- tileset costurado pelo harvest_tibiaking.py: os brushes acima
+	     vieram sem entrada de tileset e ficariam invisiveis na paleta. -->
+	<tileset name="TK - Forest Floor">
+		<terrain>
+			<brush name="forest floor"/>
+		</terrain>
+	</tileset>
+</materialsextension>

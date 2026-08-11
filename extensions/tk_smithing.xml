@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/66638-rme-extension-86-nova-paleta-smithing por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Smithing (TibiaKing)" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<tileset name="Smithing">
+<doodad>
+-- www.tibiaking.com --
+-- BY: Heyron --
+<item fromid="8641" toid="8683"/>
+<brush name="stone throne (giant)"/>
+<brush name="stone shelf (giant)"/>
+<brush name="stone table (giant)"/>
+</doodad>
+</tileset>
+
+<brush name="stone throne (giant)" type="doodad" server_lookid="7277" draggable="true" on_blocking="true" thickness="50/100">
+-- BY: Heyron --
+-- This content has been made exclusively to TibiaKing.com --	
+        <alternate>
+	    <composite chance="10">
+			<tile x="0" y="0"> <item id="7278"/> </tile>
+			<tile x="1" y="0"> <item id="7277"/> </tile>
+		</composite>
+        </alternate>
+		
+		<alternate>
+	    <composite chance="10">
+			<tile x="0" y="0"> <item id="7279"/> </tile>
+			<tile x="0" y="1"> <item id="7280"/> </tile>
+		</composite>
+        </alternate>
+		</brush>
+		
+		<brush name="stone shelf (giant)" type="doodad" server_lookid="7255" draggable="true" on_blocking="true" thickness="50/100">
+		-- BY: Heyron --
+        -- This content has been made exclusively to TibiaKing.com --	
+        <alternate>
+	    <composite chance="10">
+			<tile x="0" y="0"> <item id="7255"/> </tile>
+			<tile x="1" y="0"> <item id="7189"/> </tile>
+		</composite>
+        </alternate>
+		
+		<alternate>
+	    <composite chance="10">
+			<tile x="0" y="0"> <item id="7254"/> </tile>
+			<tile x="0" y="1"> <item id="7259"/> </tile>
+		</composite>
+        </alternate>
+		</brush>
+		
+<brush name="stone table (giant)" type="doodad" server_lookid="7276" draggable="true" on_blocking="true" thickness="50/100">
+		-- BY: Heyron --
+        -- This content has been made exclusively to TibiaKing.com --	
+	    <composite chance="10">
+			<tile x="0" y="0"> <item id="7273"/> </tile>
+			<tile x="1" y="0"> <item id="7274"/> </tile>
+			<tile x="0" y="1"> <item id="7275"/> </tile>
+			<tile x="1" y="1"> <item id="7276"/> </tile>
+</composite>
+</brush>
+
+</materialsextension>

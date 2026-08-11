@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materialsextension name="dark grass (decoration)" author="Heyron @TibiaKing" description="extension" client="15.24">
+	
+	<brush name="dark grass (decoration)" type="doodad" server_lookid="4788" draggable="false" on_blocking="true">
+	<alternate>
+		<composite chance="10">
+			<tile x="0" y="0"> <item id="4791"/> </tile>
+			<tile x="1" y="0"> <item id="4790"/> </tile>
+			<tile x="0" y="1"> <item id="4789"/> </tile>
+			<tile x="1" y="1"> <item id="4788"/> </tile>
+		</composite>
+	</alternate>
+	<alternate>
+		<composite chance="10">
+			<tile x="0" y="0"> <item id="4791"/> </tile>
+			<tile x="1" y="0"> <item id="4786"/> </tile>
+			<tile x="2" y="0"> <item id="4790"/> </tile>
+			<tile x="0" y="1"> <item id="4789"/> </tile>
+			<tile x="1" y="1"> <item id="4784"/> </tile>
+			<tile x="2" y="1"> <item id="4788"/> </tile>
+		</composite>
+	</alternate>
+	<alternate>
+		<composite chance="10">
+			<tile x="0" y="0"> <item id="4791"/> </tile>
+			<tile x="1" y="0"> <item id="4790"/> </tile>
+			<tile x="0" y="1"> <item id="4785"/> </tile>
+			<tile x="1" y="1"> <item id="4787"/> </tile>
+			<tile x="0" y="2"> <item id="4789"/> </tile>
+			<tile x="1" y="2"> <item id="4788"/> </tile>
+		</composite>
+	</alternate>
+	<alternate>
+		<composite chance="10">
+			<tile x="0" y="0"> <item id="4791"/> </tile>
+			<tile x="1" y="0"> <item id="4786"/> </tile>
+			<tile x="2" y="0"> <item id="4790"/> </tile>
+			<tile x="0" y="1"> <item id="4785"/> </tile>
+			<tile x="1" y="1"> <item id="106"/> </tile>
+			<tile x="2" y="1"> <item id="4787"/> </tile>
+			<tile x="0" y="2"> <item id="4789"/> </tile>
+			<tile x="1" y="2"> <item id="4784"/> </tile>
+			<tile x="2" y="2"> <item id="4788"/> </tile>
+		</composite>
+	</alternate>
+	<alternate>
+		<composite chance="10">
+			<tile x="0" y="0"> <item id="4791"/> </tile>
+			<tile x="1" y="0"> <item id="4790"/> </tile>
+			<tile x="-1" y="1"> <item id="4791"/> </tile>
+			<tile x="0" y="1"> <item id="4795"/> </tile>
+			<tile x="1" y="1"> <item id="4794"/> </tile>
+			<tile x="2" y="1"> <item id="4790"/> </tile>
+			<tile x="-1" y="2"> <item id="4789"/> </tile>
+			<tile x="0" y="2"> <item id="4793"/> </tile>
+			<tile x="1" y="2"> <item id="4792"/> </tile>
+			<tile x="2" y="2"> <item id="4788"/> </tile>
+			<tile x="0" y="3"> <item id="4789"/> </tile>
+			<tile x="1" y="3"> <item id="4788"/> </tile>
+		</composite>
+	</alternate>
+	</brush>
+	
+	<tileset name="Nature">
+		<terrain>
+			<brush name="dark grass (decoration)"/>
+		</terrain>
+	</tileset>
+</materialsextension>

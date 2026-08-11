@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/66701-rme-extension-86-zao-bridge por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Zao Bridge" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<brush name="zao bridge" type="doodad" server_lookid="11868" draggable="true" on_blocking="true" thickness="100/100">
+-- BY: Heyron --
+-- This content has been made exclusively to TibiaKing.com --	
+<alternate>
+<composite chance="10">
+				<tile x="0" y="0"> <item id="11868"/> </tile>
+				<tile x="0" y="1"> <item id="11869"/> </tile>
+				<tile x="0" y="2"> <item id="11870"/> </tile>
+				<tile x="0" y="3"> <item id="11871"/> </tile>
+				
+				<tile x="1" y="0"> <item id="11864"/> </tile>
+				<tile x="1" y="1"> <item id="11856"/> </tile>
+				<tile x="1" y="2"> <item id="11856"/> </tile>
+				<tile x="1" y="3"> <item id="11856"/> </tile>
+				
+				<tile x="2" y="0"> <item id="11873"/> </tile>
+				<tile x="2" y="1"> <item id="11874"/> </tile>
+				<tile x="2" y="2"> <item id="11876"/> </tile>
+				<tile x="2" y="3"> <item id="11877"/> </tile>
+</composite>
+</alternate>
+		
+<alternate>
+<composite chance="10">
+				<tile x="0" y="0"> <item id="11868"/> </tile>
+				<tile x="0" y="1"> <item id="11869"/> </tile>
+				<tile x="0" y="2"> <item id="11872"/> </tile>
+				<tile x="0" y="3"> <item id="11870"/> </tile>
+				<tile x="0" y="4"> <item id="11871"/> </tile>
+				
+				<tile x="1" y="0"> <item id="11864"/> </tile>
+				<tile x="1" y="1"> <item id="11856"/> </tile>
+				<tile x="1" y="2"> <item id="11856"/> </tile>
+				<tile x="1" y="3"> <item id="11856"/> </tile>
+				<tile x="1" y="4"> <item id="11856"/> </tile>
+				
+				<tile x="2" y="0"> <item id="11873"/> </tile>
+				<tile x="2" y="1"> <item id="11874"/> </tile>
+				<tile x="2" y="2"> <item id="11875"/> </tile>
+				<tile x="2" y="3"> <item id="11876"/> </tile>
+				<tile x="2" y="4"> <item id="11877"/> </tile>
+</composite>
+</alternate>
+		
+<alternate>
+<composite chance="10">
+				<tile x="0" y="0"> <item id="11868"/> </tile>
+				<tile x="0" y="1"> <item id="11869"/> </tile>
+				<tile x="0" y="2"> <item id="11872"/> </tile>
+				<tile x="0" y="3"> <item id="11872"/> </tile>
+				<tile x="0" y="4"> <item id="11870"/> </tile>
+				<tile x="0" y="5"> <item id="11871"/> </tile>
+				
+				<tile x="1" y="0"> <item id="11864"/> </tile>
+				<tile x="1" y="1"> <item id="11856"/> </tile>
+				<tile x="1" y="2"> <item id="11856"/> </tile>
+				<tile x="1" y="3"> <item id="11856"/> </tile>
+				<tile x="1" y="4"> <item id="11856"/> </tile>
+				<tile x="1" y="5"> <item id="11856"/> </tile>
+				
+				<tile x="2" y="0"> <item id="11864"/> </tile>
+				<tile x="2" y="1"> <item id="11856"/> </tile>
+				<tile x="2" y="2"> <item id="11856"/> </tile>
+				<tile x="2" y="3"> <item id="11856"/> </tile>
+				<tile x="2" y="4"> <item id="11856"/> </tile>
+				<tile x="2" y="5"> <item id="11856"/> </tile>
+				
+				<tile x="3" y="0"> <item id="11873"/> </tile>
+				<tile x="3" y="1"> <item id="11874"/> </tile>
+				<tile x="3" y="2"> <item id="11875"/> </tile>
+				<tile x="3" y="3"> <item id="11875"/> </tile>
+				<tile x="3" y="4"> <item id="11876"/> </tile>
+				<tile x="3" y="5"> <item id="11877"/> </tile>
+</composite>
+</alternate>
+</brush>
+
+
+	<!-- tileset costurado pelo harvest_tibiaking.py: os brushes acima
+	     vieram sem entrada de tileset e ficariam invisiveis na paleta. -->
+	<tileset name="TK - Zao Bridge">
+		<doodad>
+			<brush name="zao bridge"/>
+		</doodad>
+	</tileset>
+</materialsextension>

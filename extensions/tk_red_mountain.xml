@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Colhido de tibiaking.com/topic/41979-860-red-mountain por mapgen/harvest_tibiaking.py.
+     Os posts publicam FRAGMENTOS (trechos de doodads/borders/tilesets);
+     este arquivo e a concatenacao deles num materialsextension valido.
+     COLHIDO nao e APROVADO: os ids ainda passam pela triagem e pela folha
+     de contato. Veredito em mapgen/PALETAS-VALIDADAS.md. -->
+<materialsextension name="Red Mountain" author="TibiaKing" description="Colhido do TibiaKing" client="15.24">
+
+<brush name="Red Mountain" type="ground" server_lookid="7989" z-order="9900"> 
+                <item id="8133" chance="1"/> 
+ 
+                <border align="outer" id="555"/> 
+        </brush>
+
+<border id="555"> -- Red Mountain Willian -- 
+                <borderitem edge="n" item="7989"/> 
+                <borderitem edge="e" item="8168"/> 
+                <borderitem edge="s" item="8169"/> 
+                <borderitem edge="w" item="7988"/> 
+                <borderitem edge="cnw" item="7995"/> 
+                <borderitem edge="cne" item="7996"/> 
+                <borderitem edge="csw" item="7994"/> 
+                <borderitem edge="cse" item="8371"/> 
+                <borderitem edge="dnw" item="8135"/> 
+                <borderitem edge="dne" item="8137"/> 
+                <borderitem edge="dsw" item="8136"/> 
+                <borderitem edge="dse" item="8138"/> 
+        </border>
+
+
+	<!-- tileset costurado pelo harvest_tibiaking.py: os brushes acima
+	     vieram sem entrada de tileset e ficariam invisiveis na paleta. -->
+	<tileset name="TK - Red Mountain">
+		<terrain>
+			<brush name="Red Mountain"/>
+		</terrain>
+	</tileset>
+</materialsextension>
