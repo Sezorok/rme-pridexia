@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- client= original: "10.98" — retargetado para "15.24" pelo ext_retarget.py.
      A declaracao antiga fica aqui porque ela diz de que epoca os ids
      vieram, que e por onde se comeca a procurar quando um brush sai
      errado. Retarget faz APARECER, nao valida: ver PALETAS-VALIDADAS.md. -->
-<?xml version="1.0" encoding="UTF-8"?>
 <!-- ============================================================================
      PRIDEXIA - Paleta de Nos de Recurso (coleta v2: nos fisicos no mapa)
      Gerado da config viva (data/lib/pridexia/gathering.lua) em 2026-07-14.

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================================
+     PRIDEXIA - Paleta dos itens de arte propria.
+     GERADO por mapgen/gen_pridexia_palette.py a partir do
+     client-art/client_art_ranges.json. Nao editar a mao: rode o gerador.
+     Cada id foi conferido contra o items.otb e o Tibia.dat vivos: sid sem
+     entrada no OTB, ou cujo cid nao desenha um pixel, fica de fora.
+     Os nos de coleta NAO estao aqui: sao brush de doodad na pridexia_nodes.xml.
+     ============================================================================ -->
+<materialsextension
+	name="Pridexia Items"
+	author="Pridexia (gerado)"
+	description="Itens de arte propria do Pridexia - Heavenfall, por tema de uso."
+	client="15.24">
+
+	<tileset name="Pridexia - Estacoes de Trabalho">
+		<raw>
+			<item id="14042"/>  <!-- blacksmith bench -->
+			<item id="14043"/>  <!-- woodworking bench -->
+			<item id="14044"/>  <!-- tannery bench -->
+			<item id="14045"/>  <!-- alchemy bench -->
+			<item id="14046"/>  <!-- cooking bench -->
+			<item id="14047"/>  <!-- tailoring bench -->
+			<item id="14048"/>  <!-- arcane focus bench -->
+			<item id="14049"/>  <!-- smelter -->
+			<item id="14050"/>  <!-- sawmill -->
+			<item id="14051"/>  <!-- tanning rack -->
+			<item id="14052"/>  <!-- charcoal kiln -->
+			<item id="14053"/>  <!-- blacksmith bench -->
+			<item id="14054"/>  <!-- woodworking bench -->
+			<item id="14055"/>  <!-- tannery bench -->
+			<item id="14056"/>  <!-- alchemy bench -->
+			<item id="14057"/>  <!-- cooking bench -->
+			<item id="14058"/>  <!-- tailoring bench -->
+			<item id="14059"/>  <!-- arcane focus bench -->
+			<item id="14060"/>  <!-- smelter -->
+			<item id="14061"/>  <!-- sawmill -->
+			<item id="14062"/>  <!-- tanning rack -->
+			<item id="14063"/>  <!-- charcoal kiln -->
+			<item id="14064"/>  <!-- blacksmith bench kit -->
+			<item id="14065"/>  <!-- woodworking bench kit -->
+			<item id="14066"/>  <!-- tannery bench kit -->
+			<item id="14067"/>  <!-- alchemy bench kit -->
+			<item id="14068"/>  <!-- cooking bench kit -->
+			<item id="14069"/>  <!-- tailoring bench kit -->
+			<item id="14070"/>  <!-- arcane focus bench kit -->
+			<item id="14071"/>  <!-- smelter kit -->
+			<item id="14072"/>  <!-- sawmill kit -->
+			<item id="14073"/>  <!-- tanning rack kit -->
+			<item id="14074"/>  <!-- charcoal kiln kit -->
+			<item id="14075"/>  <!-- smelter -->
+			<item id="14076"/>  <!-- smelter -->
+			<item id="14077"/>  <!-- charcoal kiln -->
+			<item id="14078"/>  <!-- charcoal kiln -->
+			<item id="14084"/>  <!-- common grindstone -->
+			<item id="14085"/>  <!-- uncommon grindstone -->
+			<item id="14086"/>  <!-- rare grindstone -->
+			<item id="14087"/>  <!-- epic grindstone -->
+			<item id="14088"/>  <!-- legendary grindstone -->
+			<item id="14089"/>  <!-- mythic grindstone -->
+			<item id="14090"/>  <!-- celestial grindstone -->
+			<item id="14137"/>  <!-- loom -->
+			<item id="14138"/>  <!-- loom -->
+			<item id="14139"/>  <!-- loom kit -->
+		</raw>
+	</tileset>
+
+	<tileset name="Pridexia - Materiais">
+		<raw>
+			<item id="5880"/>  <!-- iron ore -->
+			<item id="13984"/>  <!-- copper ore -->
+			<item id="13985"/>  <!-- tin ore -->
+			<item id="13986"/>  <!-- coal -->
+			<item id="13987"/>  <!-- obsidian -->
+			<item id="13988"/>  <!-- heartstone -->
+			<item id="13989"/>  <!-- bronze bar -->
+			<item id="13990"/>  <!-- iron bar -->
+			<item id="13991"/>  <!-- steel bar -->
+			<item id="13992"/>  <!-- dark steel bar -->
+			<item id="13993"/>  <!-- mithril bar -->
+			<item id="14006"/>  <!-- pine log -->
+			<item id="14007"/>  <!-- oak log -->
+			<item id="14008"/>  <!-- ash log -->
+			<item id="14009"/>  <!-- ebony log -->
+			<item id="14010"/>  <!-- heartwood -->
+			<item id="14011"/>  <!-- dragonsblood resin -->
+			<item id="14012"/>  <!-- pine plank -->
+			<item id="14013"/>  <!-- oak plank -->
+			<item id="14014"/>  <!-- ash plank -->
+			<item id="14015"/>  <!-- ebony plank -->
+			<item id="14016"/>  <!-- elderwood plank -->
+			<item id="14029"/>  <!-- light pelt -->
+			<item id="14030"/>  <!-- thick pelt -->
+			<item id="14031"/>  <!-- beast pelt -->
+			<item id="14032"/>  <!-- dragonskin -->
+			<item id="14033"/>  <!-- hearthpelt -->
+			<item id="14034"/>  <!-- light leather -->
+			<item id="14035"/>  <!-- thick leather -->
+			<item id="14036"/>  <!-- hard leather -->
+			<item id="14037"/>  <!-- dragonleather -->
+			<item id="14038"/>  <!-- hearthleather -->
+			<item id="14039"/>  <!-- salt -->
+			<item id="14041"/>  <!-- depleted salt deposit -->
+			<item id="14082"/>  <!-- protection charm -->
+			<item id="14083"/>  <!-- blessed oil -->
+			<item id="14096"/>  <!-- flax -->
+			<item id="14097"/>  <!-- hemp -->
+			<item id="14098"/>  <!-- nettle fibre -->
+			<item id="14099"/>  <!-- gossamer -->
+			<item id="14100"/>  <!-- heartfibre -->
+			<item id="14101"/>  <!-- linen cloth -->
+			<item id="14102"/>  <!-- hemp cloth -->
+			<item id="14103"/>  <!-- nettle cloth -->
+			<item id="14104"/>  <!-- silk cloth -->
+			<item id="14105"/>  <!-- heartweave -->
+			<item id="14106"/>  <!-- flax patch -->
+			<item id="14107"/>  <!-- harvested flax patch -->
+			<item id="14108"/>  <!-- hemp patch -->
+			<item id="14109"/>  <!-- harvested hemp patch -->
+			<item id="14110"/>  <!-- nettle patch -->
+			<item id="14111"/>  <!-- harvested nettle patch -->
+			<item id="14112"/>  <!-- heavy web -->
+			<item id="14113"/>  <!-- stripped web -->
+			<item id="14114"/>  <!-- heartbloom -->
+			<item id="14115"/>  <!-- spent heartbloom -->
+			<item id="14136"/>  <!-- crystallised sap -->
+			<item id="14306"/>  <!-- fire essence -->
+			<item id="14307"/>  <!-- water essence -->
+			<item id="14308"/>  <!-- earth essence -->
+			<item id="14309"/>  <!-- energy essence -->
+			<item id="14310"/>  <!-- light essence -->
+			<item id="14311"/>  <!-- darkness essence -->
+			<item id="14312"/>  <!-- air essence -->
+		</raw>
+	</tileset>
+
+	<tileset name="Pridexia - Tinturas e Pigmentos">
+		<raw>
+			<item id="14121"/>  <!-- faint pigment -->
+			<item id="14122"/>  <!-- ochre pigment -->
+			<item id="14123"/>  <!-- verdant pigment -->
+			<item id="14124"/>  <!-- pearl pigment -->
+			<item id="14125"/>  <!-- heartdye -->
+			<item id="14158"/>  <!-- red dye -->
+			<item id="14159"/>  <!-- blue dye -->
+			<item id="14160"/>  <!-- green dye -->
+			<item id="14161"/>  <!-- yellow dye -->
+			<item id="14162"/>  <!-- purple dye -->
+			<item id="14163"/>  <!-- orange dye -->
+			<item id="14164"/>  <!-- black dye -->
+			<item id="14165"/>  <!-- white dye -->
+		</raw>
+	</tileset>
+
+	<tileset name="Pridexia - Gemas e Joias">
+		<raw>
+			<item id="14214"/>  <!-- rough ruby -->
+			<item id="14215"/>  <!-- chipped ruby -->
+			<item id="14216"/>  <!-- cut ruby -->
+			<item id="14217"/>  <!-- polished ruby -->
+			<item id="14218"/>  <!-- flawless ruby -->
+			<item id="14219"/>  <!-- rough topaz -->
+			<item id="14220"/>  <!-- chipped topaz -->
+			<item id="14221"/>  <!-- cut topaz -->
+			<item id="14222"/>  <!-- polished topaz -->
+			<item id="14223"/>  <!-- flawless topaz -->
+			<item id="14224"/>  <!-- rough sapphire -->
+			<item id="14225"/>  <!-- chipped sapphire -->
+			<item id="14226"/>  <!-- cut sapphire -->
+			<item id="14227"/>  <!-- polished sapphire -->
+			<item id="14228"/>  <!-- flawless sapphire -->
+			<item id="14229"/>  <!-- rough diamond -->
+			<item id="14230"/>  <!-- chipped diamond -->
+			<item id="14231"/>  <!-- cut diamond -->
+			<item id="14232"/>  <!-- polished diamond -->
+			<item id="14233"/>  <!-- flawless diamond -->
+			<item id="14234"/>  <!-- rough amethyst -->
+			<item id="14235"/>  <!-- chipped amethyst -->
+			<item id="14236"/>  <!-- cut amethyst -->
+			<item id="14237"/>  <!-- polished amethyst -->
+			<item id="14238"/>  <!-- flawless amethyst -->
+			<item id="14239"/>  <!-- rough emerald -->
+			<item id="14240"/>  <!-- chipped emerald -->
+			<item id="14241"/>  <!-- cut emerald -->
+			<item id="14242"/>  <!-- polished emerald -->
+			<item id="14243"/>  <!-- flawless emerald -->
+			<item id="14244"/>  <!-- rough onyx -->
+			<item id="14245"/>  <!-- chipped onyx -->
+			<item id="14246"/>  <!-- cut onyx -->
+			<item id="14247"/>  <!-- polished onyx -->
+			<item id="14248"/>  <!-- flawless onyx -->
+			<item id="14296"/>  <!-- bronze ring -->
+			<item id="14297"/>  <!-- iron ring -->
+			<item id="14298"/>  <!-- steel ring -->
+			<item id="14299"/>  <!-- darksteel ring -->
+			<item id="14300"/>  <!-- mithril ring -->
+			<item id="14301"/>  <!-- bronze amulet -->
+			<item id="14302"/>  <!-- iron amulet -->
+			<item id="14303"/>  <!-- steel amulet -->
+			<item id="14304"/>  <!-- darksteel amulet -->
+			<item id="14305"/>  <!-- mithril amulet -->
+		</raw>
+	</tileset>
+
+	<tileset name="Pridexia - Armas e Armaduras">
+		<raw>
+			<item id="14079"/>  <!-- bronze dirk -->
+			<item id="14080"/>  <!-- ironfang stiletto -->
+			<item id="14081"/>  <!-- steel kris -->
+			<item id="14091"/>  <!-- venomfang kris -->
+			<item id="14092"/>  <!-- darksteel fang -->
+			<item id="14093"/>  <!-- bloodletter -->
+			<item id="14094"/>  <!-- mithril shiv -->
+			<item id="14095"/>  <!-- shadowfang dagger -->
+			<item id="14116"/>  <!-- linen leggings -->
+			<item id="14117"/>  <!-- hemp leggings -->
+			<item id="14118"/>  <!-- nettle leggings -->
+			<item id="14119"/>  <!-- silk leggings -->
+			<item id="14120"/>  <!-- heartweave leggings -->
+			<item id="14126"/>  <!-- linen robe -->
+			<item id="14127"/>  <!-- hemp robe -->
+			<item id="14128"/>  <!-- nettle robe -->
+			<item id="14129"/>  <!-- silk robe -->
+			<item id="14130"/>  <!-- heartweave robe -->
+			<item id="14131"/>  <!-- linen shoes -->
+			<item id="14132"/>  <!-- hemp shoes -->
+			<item id="14133"/>  <!-- nettle shoes -->
+			<item id="14134"/>  <!-- silk shoes -->
+			<item id="14135"/>  <!-- heartweave shoes -->
+			<item id="14140"/>  <!-- iron greatsword -->
+			<item id="14141"/>  <!-- steel crossbow -->
+			<item id="14142"/>  <!-- darksteel crossbow -->
+			<item id="14143"/>  <!-- thick leather boots -->
+			<item id="14144"/>  <!-- dragonleather boots -->
+			<item id="14145"/>  <!-- dragonleather legs -->
+			<item id="14146"/>  <!-- iron sabatons -->
+			<item id="14147"/>  <!-- steel sabatons -->
+			<item id="14148"/>  <!-- darksteel sabatons -->
+			<item id="14149"/>  <!-- darksteel javelin -->
+			<item id="14150"/>  <!-- bronze sword -->
+			<item id="14151"/>  <!-- bronze greatsword -->
+			<item id="14152"/>  <!-- bronze axe -->
+			<item id="14153"/>  <!-- bronze mace -->
+			<item id="14154"/>  <!-- pine bow -->
+			<item id="14155"/>  <!-- bronze crossbow -->
+			<item id="14156"/>  <!-- pine wand -->
+			<item id="14157"/>  <!-- pine rod -->
+			<item id="14166"/>  <!-- light leather armor -->
+			<item id="14167"/>  <!-- thick leather armor -->
+			<item id="14168"/>  <!-- beasthide armor -->
+			<item id="14169"/>  <!-- dragonleather armor -->
+			<item id="14170"/>  <!-- heartpelt armor -->
+			<item id="14171"/>  <!-- light leather cap -->
+			<item id="14172"/>  <!-- thick leather cap -->
+			<item id="14173"/>  <!-- beasthide cap -->
+			<item id="14174"/>  <!-- dragonleather cap -->
+			<item id="14175"/>  <!-- heartpelt cap -->
+			<item id="14176"/>  <!-- light leather boots -->
+			<item id="14177"/>  <!-- beasthide boots -->
+			<item id="14178"/>  <!-- heartpelt boots -->
+			<item id="14179"/>  <!-- bronze cuirass -->
+			<item id="14180"/>  <!-- iron cuirass -->
+			<item id="14181"/>  <!-- steel cuirass -->
+			<item id="14183"/>  <!-- darksteel cuirass -->
+			<item id="14184"/>  <!-- mithril cuirass -->
+			<item id="14185"/>  <!-- bronze helm -->
+			<item id="14186"/>  <!-- iron helm -->
+			<item id="14187"/>  <!-- steel helm -->
+			<item id="14188"/>  <!-- darksteel helm -->
+			<item id="14189"/>  <!-- mithril helm -->
+			<item id="14190"/>  <!-- bronze sabatons -->
+			<item id="14191"/>  <!-- mithril sabatons -->
+			<item id="14192"/>  <!-- light leather legs -->
+			<item id="14193"/>  <!-- thick leather legs -->
+			<item id="14194"/>  <!-- beasthide legs -->
+			<item id="14195"/>  <!-- heartpelt legs -->
+			<item id="14196"/>  <!-- bronze greaves -->
+			<item id="14197"/>  <!-- iron greaves -->
+			<item id="14198"/>  <!-- steel greaves -->
+			<item id="14199"/>  <!-- darksteel greaves -->
+			<item id="14200"/>  <!-- mithril greaves -->
+			<item id="14201"/>  <!-- bronze shield -->
+			<item id="14202"/>  <!-- iron shield -->
+			<item id="14203"/>  <!-- steel kite shield -->
+			<item id="14204"/>  <!-- darksteel shield -->
+			<item id="14205"/>  <!-- mithril shield -->
+			<item id="14249"/>  <!-- mithril greatblade -->
+			<item id="14250"/>  <!-- mithril greataxe -->
+			<item id="14251"/>  <!-- bloodforged greataxe -->
+			<item id="14252"/>  <!-- mithril warhammer -->
+			<item id="14253"/>  <!-- bloodforged warhammer -->
+			<item id="14254"/>  <!-- oak bow -->
+			<item id="14255"/>  <!-- ash bow -->
+			<item id="14256"/>  <!-- ebony bow -->
+			<item id="14257"/>  <!-- elderwood bow -->
+			<item id="14258"/>  <!-- bloodwood bow -->
+			<item id="14259"/>  <!-- iron crossbow -->
+			<item id="14260"/>  <!-- tempered crossbow -->
+			<item id="14261"/>  <!-- mithril arbalest -->
+			<item id="14262"/>  <!-- venomed arbalest -->
+			<item id="14263"/>  <!-- bloodforged arbalest -->
+			<item id="14264"/>  <!-- burnished arbalest -->
+			<item id="14265"/>  <!-- mithril crossbow -->
+			<item id="14266"/>  <!-- frostbound arbalest -->
+		</raw>
+	</tileset>
+
+	<tileset name="Pridexia - Focos (varinhas/varas)">
+		<raw>
+			<item id="14267"/>  <!-- oak wand -->
+			<item id="14268"/>  <!-- oak rod -->
+			<item id="14269"/>  <!-- ash wand -->
+			<item id="14270"/>  <!-- ash rod -->
+			<item id="14271"/>  <!-- ebony wand -->
+			<item id="14272"/>  <!-- ebony rod -->
+			<item id="14273"/>  <!-- elderwood wand -->
+			<item id="14274"/>  <!-- elderwood rod -->
+			<item id="14276"/>  <!-- azure wand -->
+			<item id="14277"/>  <!-- amber wand -->
+			<item id="14278"/>  <!-- void wand -->
+			<item id="14279"/>  <!-- verdant rod -->
+			<item id="14281"/>  <!-- starlit wand -->
+			<item id="14282"/>  <!-- ember rod -->
+			<item id="14283"/>  <!-- astral rod -->
+			<item id="14284"/>  <!-- dusk rod -->
+			<item id="14285"/>  <!-- gilded rod -->
+			<item id="14286"/>  <!-- frost rod -->
+			<item id="14287"/>  <!-- scarlet rod -->
+			<item id="14288"/>  <!-- gale rod -->
+		</raw>
+	</tileset>
+
+	<tileset name="Pridexia - Cenario">
+		<raw>
+			<item id="14206"/>  <!-- ballista turret -->
+			<item id="14207"/>  <!-- ballista turret -->
+			<item id="14208"/>  <!-- ballista turret -->
+			<item id="14209"/>  <!-- ballista turret -->
+			<item id="14210"/>  <!-- ballista turret -->
+			<item id="14211"/>  <!-- ballista turret -->
+			<item id="14212"/>  <!-- ballista turret -->
+			<item id="14213"/>  <!-- ballista turret -->
+		</raw>
+	</tileset>
+</materialsextension>
