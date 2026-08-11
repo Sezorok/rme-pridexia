@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Estrada — ATESTADO no mapa global do Tibia (map1.otbm).
+  Cada id abaixo aparece em >= 3% dos 105 aglomerados reais do tema.
+  Derivado por mapgen/gen_palette_por_uso.py. Nao editar a mao.
+  O gerador procedural deve sortear DAQUI.
+-->
+<materialsextension name="Pridexia Estrada" author="Pridexia (derivado do uso real)"
+	description="Pridexia Estrada" client="15.24">
+
+	<!-- nucleo: >=10% dos 105 estrada reais -->
+	<tileset name="Pridexia - Estrada / nucleo">
+		<terrain>
+			<brush name="cobblestone"/>
+			<brush name="grassy cobblestone"/>
+			<brush name="yellow pavement"/>
+			<brush name="dark pavement"/>
+			<brush name="roshamuul pavement"/>
+			<brush name="venore cobblestone"/>
+			<brush name="oramond other pavement"/>
+			<brush name="oramond pavement"/>
+			<brush name="ugly cobblestone"/>
+			<brush name="dark cobblestone"/>
+			<brush name="white gravel"/>
+		</terrain>
+		<raw>
+			<item id="103"/>
+			<item id="106"/>
+			<item id="724"/>
+			<item id="1036"/>
+			<item id="1037"/>
+			<item id="1049"/>
+			<item id="1050"/>
+			<item id="1480"/>
+			<item id="3362"/>
+			<item id="4542"/>
+			<item id="4543"/>
+			<item id="4544"/>
+			<item id="4545"/>
+			<item id="4546"/>
+			<item id="4547"/>
+			<item id="4548"/>
+			<item id="4550"/>
+			<item id="4551"/>
+			<item id="4667"/>
+			<item id="4670"/>
+			<item id="6217"/>
+			<item id="6218"/>
+			<item id="6219"/>
+			<item id="9043"/>
+			<item id="9046"/>
+			<item id="9050"/>
+			<item id="9051"/>
+			<item id="9053"/>
+			<item id="9056"/>
+			<item id="9058"/>
+			<item id="9067"/>
+			<item id="10434"/>
+		</raw>
+	</tileset>
+
+	<!-- comum: 3-10% -->
+	<tileset name="Pridexia - Estrada / comum">
+		<raw>
+			<item id="104"/>
+			<item id="108"/>
+			<item id="109"/>
+			<item id="405"/>
+			<item id="406"/>
+			<item id="424"/>
+			<item id="791"/>
+			<item id="904"/>
+			<item id="919"/>
+			<item id="1026"/>
+			<item id="1027"/>
+			<item id="1039"/>
+			<item id="1040"/>
+			<item id="1052"/>
+			<item id="1054"/>
+			<item id="1219"/>
+			<item id="1221"/>
+			<item id="1385"/>
+			<item id="1386"/>
+			<item id="1777"/>
+			<item id="1926"/>
+			<item id="1927"/>
+			<item id="2039"/>
+			<item id="2700"/>
+			<item id="2702"/>
+			<item id="3361"/>
+			<item id="3363"/>
+			<item id="3611"/>
+			<item id="3612"/>
+			<item id="3623"/>
+			<item id="3653"/>
+			<item id="3656"/>
+			<item id="4011"/>
+			<item id="4413"/>
+			<item id="4414"/>
+			<item id="4549"/>
+			<item id="4552"/>
+			<item id="4553"/>
+			<item id="4608"/>
+			<item id="4609"/>
+			<item id="4610"/>
+			<item id="4611"/>
+			<item id="4613"/>
+			<item id="4644"/>
+			<item id="4645"/>
+			<item id="4647"/>
+			<item id="4649"/>
+			<item id="4652"/>
+			<item id="4653"/>
+			<item id="4654"/>
+			<item id="4664"/>
+			<item id="4668"/>
+			<item id="4669"/>
+			<item id="4671"/>
+			<item id="4672"/>
+			<item id="4673"/>
+			<item id="4674"/>
+			<item id="4675"/>
+			<item id="4676"/>
+			<item id="4677"/>
+			<item id="4784"/>
+			<item id="4785"/>
+			<item id="4786"/>
+			<item id="4787"/>
+			<item id="4793"/>
+			<item id="4794"/>
+			<item id="6239"/>
+			<item id="6436"/>
+			<item id="7024"/>
+			<item id="7348"/>
+			<item id="7653"/>
+			<item id="7656"/>
+			<item id="7657"/>
+			<item id="7659"/>
+			<item id="7709"/>
+			<item id="7710"/>
+			<item id="9021"/>
+			<item id="9044"/>
+			<item id="9045"/>
+			<item id="9047"/>
+			<item id="9049"/>
+			<item id="9052"/>
+			<item id="9054"/>
+			<item id="9055"/>
+			<item id="9057"/>
+			<item id="9370"/>
+			<item id="9371"/>
+			<item id="9372"/>
+			<item id="9373"/>
+			<item id="9374"/>
+			<item id="9476"/>
+			<item id="10433"/>
+		</raw>
+	</tileset>
+
+</materialsextension>
