@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PRIDEXIA - Navios. GERADO por mapgen/extrai_navio.py a partir do map1.otbm.
+  Nao editar a mao.
+
+  `pridexia navio 9x21` e o navio de passageiros padrao do Tibia, levantado tile
+  a tile de uma das 5 instancias reais (canto 31460,32102). Carimba os DOIS andares
+  num clique: convés em z=0 e casco em z=1 do composite.
+
+  A agua fica no andar do CASCO (z=1 daqui), nao no do convés — foi assim que o
+  mapa oficial construiu, e e a mesma logica estrutural que vale para ponte:
+  o que cruza agua vive no andar de cima.
+-->
+<materialsextension name="Pridexia Navios" author="Pridexia (extraido do mapa real)"
+	description="Modelos de embarcacao levantados do mapa global do Tibia."
+	client="15.24">
+
+	<brush name="pridexia navio 9x21" type="doodad" server_lookid="436"
+		draggable="true" on_blocking="true" thickness="100/100">
+		<composite chance="10">
+			<tile x="0" y="3" z="0"><item id="436"/></tile>
+			<tile x="0" y="4" z="0"><item id="436"/><item id="4923"/><item id="4988"/></tile>
+			<tile x="0" y="5" z="0"><item id="436"/><item id="4922"/></tile>
+			<tile x="0" y="6" z="0"><item id="436"/><item id="4922"/><item id="4988"/></tile>
+			<tile x="0" y="7" z="0"><item id="436"/><item id="4922"/></tile>
+			<tile x="0" y="8" z="0"><item id="436"/><item id="4922"/><item id="4978"/><item id="4988"/></tile>
+			<tile x="0" y="9" z="0"><item id="436"/><item id="4922"/><item id="4978"/></tile>
+			<tile x="0" y="10" z="0"><item id="436"/><item id="4922"/></tile>
+			<tile x="0" y="11" z="0"><item id="436"/><item id="4922"/></tile>
+			<tile x="0" y="12" z="0"><item id="436"/><item id="4922"/></tile>
+			<tile x="0" y="13" z="0"><item id="436"/><item id="4911"/></tile>
+			<tile x="0" y="14" z="0"><item id="436"/><item id="4906"/></tile>
+			<tile x="0" y="15" z="0"><item id="436"/><item id="4906"/><item id="1813"/></tile>
+			<tile x="0" y="16" z="0"><item id="436"/><item id="5004"/><item id="2067"/></tile>
+			<tile x="0" y="17" z="0"><item id="436"/><item id="4906"/><item id="1813"/></tile>
+			<tile x="0" y="18" z="0"><item id="436"/><item id="4906"/></tile>
+			<tile x="0" y="19" z="0"><item id="436"/><item id="4906"/><item id="1813"/></tile>
+			<tile x="1" y="3" z="0"><item id="9067"/><item id="4924"/></tile>
+			<tile x="1" y="4" z="0"><item id="9067"/></tile>
+			<tile x="1" y="5" z="0"><item id="9067"/></tile>
+			<tile x="1" y="6" z="0"><item id="9067"/></tile>
+			<tile x="1" y="7" z="0"><item id="9067"/><item id="3587"/></tile>
+			<tile x="1" y="8" z="0"><item id="9067"/><item id="3588"/></tile>
+			<tile x="1" y="9" z="0"><item id="9067"/><item id="3589"/></tile>
+			<tile x="1" y="10" z="0"><item id="9067"/><item id="3591"/></tile>
+			<tile x="1" y="11" z="0"><item id="9067"/></tile>
+			<tile x="1" y="12" z="0"><item id="9067"/><item id="1777"/></tile>
+			<tile x="1" y="13" z="0"><item id="9067"/><item id="4907"/></tile>
+			<tile x="1" y="14" z="0"><item id="9067"/><item id="1386"/></tile>
+			<tile x="1" y="15" z="0"><item id="9067"/></tile>
+			<tile x="1" y="16" z="0"><item id="9067"/></tile>
+			<tile x="1" y="17" z="0"><item id="9067"/></tile>
+			<tile x="1" y="18" z="0"><item id="9067"/><item id="1753"/></tile>
+			<tile x="1" y="19" z="0"><item id="9067"/><item id="1753"/></tile>
+			<tile x="1" y="20" z="0"><item id="9067"/><item id="4909"/></tile>
+			<tile x="2" y="1" z="0"><item id="438"/></tile>
+			<tile x="2" y="2" z="0"><item id="9067"/><item id="4924"/></tile>
+			<tile x="2" y="3" z="0"><item id="9067"/></tile>
+			<tile x="2" y="4" z="0"><item id="9067"/></tile>
+			<tile x="2" y="5" z="0"><item id="9067"/></tile>
+			<tile x="2" y="6" z="0"><item id="9067"/></tile>
+			<tile x="2" y="7" z="0"><item id="9067"/></tile>
+			<tile x="2" y="8" z="0"><item id="9067"/></tile>
+			<tile x="2" y="9" z="0"><item id="9067"/></tile>
+			<tile x="2" y="10" z="0"><item id="9067"/></tile>
+			<tile x="2" y="11" z="0"><item id="9067"/></tile>
+			<tile x="2" y="12" z="0"><item id="9067"/><item id="5003"/></tile>
+			<tile x="2" y="13" z="0"><item id="9067"/><item id="4910"/></tile>
+			<tile x="2" y="14" z="0"><item id="9067"/></tile>
+			<tile x="2" y="15" z="0"><item id="9067"/></tile>
+			<tile x="2" y="16" z="0"><item id="9067"/></tile>
+			<tile x="2" y="17" z="0"><item id="9067"/></tile>
+			<tile x="2" y="18" z="0"><item id="9067"/></tile>
+			<tile x="2" y="19" z="0"><item id="9067"/></tile>
+			<tile x="2" y="20" z="0"><item id="9067"/><item id="4907"/><item id="1820"/></tile>
+			<tile x="3" y="0" z="0"><item id="434"/></tile>
+			<tile x="3" y="1" z="0"><item id="9067"/><item id="4924"/></tile>
+			<tile x="3" y="2" z="0"><item id="9067"/></tile>
+			<tile x="3" y="3" z="0"><item id="9067"/></tile>
+			<tile x="3" y="4" z="0"><item id="9067"/></tile>
+			<tile x="3" y="5" z="0"><item id="9067"/></tile>
+			<tile x="3" y="6" z="0"><item id="9067"/></tile>
+			<tile x="3" y="7" z="0"><item id="9067"/></tile>
+			<tile x="3" y="8" z="0"><item id="9067"/></tile>
+			<tile x="3" y="9" z="0"><item id="9067"/></tile>
+			<tile x="3" y="10" z="0"><item id="9067"/></tile>
+			<tile x="3" y="11" z="0"><item id="9067"/></tile>
+			<tile x="3" y="12" z="0"><item id="9067"/><item id="4907"/></tile>
+			<tile x="3" y="13" z="0"><item id="9067"/></tile>
+			<tile x="3" y="14" z="0"><item id="9067"/></tile>
+			<tile x="3" y="15" z="0"><item id="9067"/></tile>
+			<tile x="3" y="16" z="0"><item id="9067"/></tile>
+			<tile x="3" y="17" z="0"><item id="9067"/></tile>
+			<tile x="3" y="18" z="0"><item id="9067"/></tile>
+			<tile x="3" y="19" z="0"><item id="9067"/></tile>
+			<tile x="3" y="20" z="0"><item id="9067"/><item id="4907"/></tile>
+			<tile x="4" y="0" z="0"><item id="434"/><item id="4927"/></tile>
+			<tile x="4" y="1" z="0"><item id="9067"/></tile>
+			<tile x="4" y="3" z="0"><item id="9067"/></tile>
+			<tile x="4" y="4" z="0"><item id="9067"/></tile>
+			<tile x="4" y="5" z="0"><item id="9067"/></tile>
+			<tile x="4" y="6" z="0"><item id="9067"/></tile>
+			<tile x="4" y="7" z="0"><item id="9067"/></tile>
+			<tile x="4" y="9" z="0"><item id="9067"/></tile>
+			<tile x="4" y="10" z="0"><item id="9067"/></tile>
+			<tile x="4" y="11" z="0"><item id="9067"/></tile>
+			<tile x="4" y="12" z="0"><item id="9067"/><item id="4916"/></tile>
+			<tile x="4" y="13" z="0"><item id="9067"/></tile>
+			<tile x="4" y="14" z="0"><item id="9067"/></tile>
+			<tile x="4" y="15" z="0"><item id="9067"/></tile>
+			<tile x="4" y="16" z="0"><item id="9067"/></tile>
+			<tile x="4" y="17" z="0"><item id="9067"/></tile>
+			<tile x="4" y="18" z="0"><item id="9067"/></tile>
+			<tile x="4" y="19" z="0"><item id="9067"/></tile>
+			<tile x="4" y="20" z="0"><item id="9067"/><item id="4907"/></tile>
+			<tile x="5" y="0" z="0"><item id="434"/><item id="4950"/><item id="4928"/></tile>
+			<tile x="5" y="1" z="0"><item id="9067"/></tile>
+			<tile x="5" y="2" z="0"><item id="9067"/></tile>
+			<tile x="5" y="3" z="0"><item id="9067"/></tile>
+			<tile x="5" y="4" z="0"><item id="9067"/></tile>
+			<tile x="5" y="5" z="0"><item id="9067"/></tile>
+			<tile x="5" y="6" z="0"><item id="9067"/></tile>
+			<tile x="5" y="7" z="0"><item id="9067"/></tile>
+			<tile x="5" y="8" z="0"><item id="9067"/></tile>
+			<tile x="5" y="9" z="0"><item id="9067"/></tile>
+			<tile x="5" y="10" z="0"><item id="9067"/></tile>
+			<tile x="5" y="11" z="0"><item id="9067"/></tile>
+			<tile x="5" y="12" z="0"><item id="9067"/><item id="4917"/></tile>
+			<tile x="5" y="13" z="0"><item id="9067"/></tile>
+			<tile x="5" y="14" z="0"><item id="9067"/></tile>
+			<tile x="5" y="15" z="0"><item id="9067"/></tile>
+			<tile x="5" y="16" z="0"><item id="9067"/></tile>
+			<tile x="5" y="17" z="0"><item id="9067"/></tile>
+			<tile x="5" y="18" z="0"><item id="9067"/></tile>
+			<tile x="5" y="19" z="0"><item id="9067"/></tile>
+			<tile x="5" y="20" z="0"><item id="9067"/><item id="4907"/></tile>
+			<tile x="6" y="2" z="0"><item id="9067"/></tile>
+			<tile x="6" y="3" z="0"><item id="9067"/></tile>
+			<tile x="6" y="4" z="0"><item id="9067"/></tile>
+			<tile x="6" y="5" z="0"><item id="9067"/></tile>
+			<tile x="6" y="6" z="0"><item id="9067"/></tile>
+			<tile x="6" y="7" z="0"><item id="9067"/></tile>
+			<tile x="6" y="8" z="0"><item id="9067"/></tile>
+			<tile x="6" y="9" z="0"><item id="9067"/></tile>
+			<tile x="6" y="10" z="0"><item id="9067"/></tile>
+			<tile x="6" y="11" z="0"><item id="9067"/></tile>
+			<tile x="6" y="12" z="0"><item id="9067"/><item id="4907"/></tile>
+			<tile x="6" y="13" z="0"><item id="9067"/><item id="4908"/></tile>
+			<tile x="6" y="14" z="0"><item id="9067"/></tile>
+			<tile x="6" y="15" z="0"><item id="9067"/></tile>
+			<tile x="6" y="16" z="0"><item id="9067"/></tile>
+			<tile x="6" y="17" z="0"><item id="9067"/></tile>
+			<tile x="6" y="18" z="0"><item id="9067"/></tile>
+			<tile x="6" y="19" z="0"><item id="9067"/></tile>
+			<tile x="6" y="20" z="0"><item id="9067"/><item id="4907"/></tile>
+			<tile x="7" y="3" z="0"><item id="9067"/></tile>
+			<tile x="7" y="4" z="0"><item id="9067"/></tile>
+			<tile x="7" y="5" z="0"><item id="9067"/></tile>
+			<tile x="7" y="6" z="0"><item id="9067"/></tile>
+			<tile x="7" y="7" z="0"><item id="9067"/></tile>
+			<tile x="7" y="8" z="0"><item id="9067"/></tile>
+			<tile x="7" y="9" z="0"><item id="9067"/></tile>
+			<tile x="7" y="10" z="0"><item id="9067"/></tile>
+			<tile x="7" y="11" z="0"><item id="9067"/></tile>
+			<tile x="7" y="12" z="0"><item id="9067"/></tile>
+			<tile x="7" y="13" z="0"><item id="9067"/><item id="4909"/></tile>
+			<tile x="7" y="14" z="0"><item id="9067"/><item id="1750"/></tile>
+			<tile x="7" y="15" z="0"><item id="9067"/></tile>
+			<tile x="7" y="16" z="0"><item id="9067"/></tile>
+			<tile x="7" y="17" z="0"><item id="9067"/></tile>
+			<tile x="7" y="18" z="0"><item id="9067"/><item id="1749"/></tile>
+			<tile x="7" y="19" z="0"><item id="9067"/><item id="1749"/></tile>
+			<tile x="7" y="20" z="0"><item id="9067"/><item id="4907"/><item id="1820"/></tile>
+			<tile x="8" y="4" z="0"><item id="9067"/><item id="4931"/></tile>
+			<tile x="8" y="5" z="0"><item id="9067"/><item id="4922"/></tile>
+			<tile x="8" y="6" z="0"><item id="9067"/><item id="4922"/><item id="4978"/></tile>
+			<tile x="8" y="7" z="0"><item id="9067"/><item id="4922"/><item id="4978"/></tile>
+			<tile x="8" y="8" z="0"><item id="9067"/><item id="4922"/><item id="4978"/></tile>
+			<tile x="8" y="9" z="0"><item id="9067"/></tile>
+			<tile x="8" y="10" z="0"><item id="9067"/></tile>
+			<tile x="8" y="11" z="0"><item id="9067"/></tile>
+			<tile x="8" y="12" z="0"><item id="9067"/><item id="4922"/><item id="4978"/></tile>
+			<tile x="8" y="13" z="0"><item id="9067"/><item id="4912"/></tile>
+			<tile x="8" y="14" z="0"><item id="9067"/><item id="4906"/></tile>
+			<tile x="8" y="15" z="0"><item id="9067"/><item id="4906"/></tile>
+			<tile x="8" y="16" z="0"><item id="9067"/><item id="4906"/></tile>
+			<tile x="8" y="17" z="0"><item id="9067"/><item id="4906"/></tile>
+			<tile x="8" y="18" z="0"><item id="9067"/><item id="4906"/></tile>
+			<tile x="8" y="19" z="0"><item id="9067"/><item id="4906"/></tile>
+			<tile x="8" y="20" z="0"><item id="440"/><item id="4910"/></tile>
+			<tile x="0" y="0" z="1"><item id="4608"/></tile>
+			<tile x="0" y="1" z="1"><item id="4616"/></tile>
+			<tile x="0" y="2" z="1"><item id="4616"/></tile>
+			<tile x="0" y="3" z="1"><item id="4618"/><item id="1548"/></tile>
+			<tile x="0" y="4" z="1"><item id="4617"/><item id="4887"/></tile>
+			<tile x="0" y="5" z="1"><item id="4614"/><item id="4883"/></tile>
+			<tile x="0" y="6" z="1"><item id="4614"/><item id="4883"/></tile>
+			<tile x="0" y="7" z="1"><item id="4617"/><item id="4883"/></tile>
+			<tile x="0" y="8" z="1"><item id="4617"/><item id="4883"/></tile>
+			<tile x="0" y="9" z="1"><item id="4619"/><item id="4883"/></tile>
+			<tile x="0" y="10" z="1"><item id="4619"/><item id="4883"/><item id="2038"/></tile>
+			<tile x="0" y="11" z="1"><item id="4615"/><item id="4883"/></tile>
+			<tile x="0" y="12" z="1"><item id="4617"/><item id="4883"/></tile>
+			<tile x="0" y="13" z="1"><item id="4617"/><item id="4883"/></tile>
+			<tile x="0" y="14" z="1"><item id="4615"/><item id="4883"/></tile>
+			<tile x="0" y="15" z="1"><item id="4614"/><item id="4883"/></tile>
+			<tile x="0" y="16" z="1"><item id="4614"/><item id="4883"/></tile>
+			<tile x="0" y="17" z="1"><item id="4617"/><item id="4883"/></tile>
+			<tile x="0" y="18" z="1"><item id="4615"/><item id="4883"/></tile>
+			<tile x="0" y="19" z="1"><item id="4616"/><item id="4883"/></tile>
+			<tile x="0" y="20" z="1"><item id="4617"/><item id="4894"/></tile>
+			<tile x="1" y="0" z="1"><item id="4619"/></tile>
+			<tile x="1" y="1" z="1"><item id="4614"/></tile>
+			<tile x="1" y="2" z="1"><item id="4614"/><item id="1548"/></tile>
+			<tile x="1" y="3" z="1"><item id="9067"/><item id="4888"/></tile>
+			<tile x="1" y="4" z="1"><item id="9067"/></tile>
+			<tile x="1" y="5" z="1"><item id="9067"/></tile>
+			<tile x="1" y="6" z="1"><item id="9067"/></tile>
+			<tile x="1" y="7" z="1"><item id="9067"/></tile>
+			<tile x="1" y="8" z="1"><item id="9067"/></tile>
+			<tile x="1" y="9" z="1"><item id="9067"/></tile>
+			<tile x="1" y="10" z="1"><item id="9067"/></tile>
+			<tile x="1" y="11" z="1"><item id="9067"/></tile>
+			<tile x="1" y="12" z="1"><item id="9067"/></tile>
+			<tile x="1" y="13" z="1"><item id="9067"/></tile>
+			<tile x="1" y="14" z="1"><item id="9067"/></tile>
+			<tile x="1" y="15" z="1"><item id="9067"/><item id="1739"/></tile>
+			<tile x="1" y="16" z="1"><item id="9067"/><item id="1739"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="1" y="17" z="1"><item id="9067"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="1" y="18" z="1"><item id="9067"/><item id="1739"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="1" y="19" z="1"><item id="9067"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="1" y="20" z="1"><item id="4619"/><item id="4895"/></tile>
+			<tile x="2" y="0" z="1"><item id="4616"/></tile>
+			<tile x="2" y="1" z="1"><item id="4618"/><item id="1548"/></tile>
+			<tile x="2" y="2" z="1"><item id="9067"/><item id="4888"/></tile>
+			<tile x="2" y="3" z="1"><item id="9067"/></tile>
+			<tile x="2" y="4" z="1"><item id="9067"/></tile>
+			<tile x="2" y="5" z="1"><item id="9067"/><item id="1386"/></tile>
+			<tile x="2" y="6" z="1"><item id="9067"/></tile>
+			<tile x="2" y="7" z="1"><item id="9067"/></tile>
+			<tile x="2" y="8" z="1"><item id="9067"/></tile>
+			<tile x="2" y="9" z="1"><item id="9067"/></tile>
+			<tile x="2" y="10" z="1"><item id="9067"/></tile>
+			<tile x="2" y="11" z="1"><item id="9067"/></tile>
+			<tile x="2" y="12" z="1"><item id="9067"/></tile>
+			<tile x="2" y="13" z="1"><item id="9067"/></tile>
+			<tile x="2" y="14" z="1"><item id="9067"/></tile>
+			<tile x="2" y="15" z="1"><item id="9067"/></tile>
+			<tile x="2" y="16" z="1"><item id="9067"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="2" y="17" z="1"><item id="9067"/><item id="1739"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="2" y="18" z="1"><item id="9067"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="2" y="19" z="1"><item id="9067"/><item id="1739"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="2" y="20" z="1"><item id="4614"/><item id="4885"/></tile>
+			<tile x="3" y="0" z="1"><item id="4618"/><item id="1548"/></tile>
+			<tile x="3" y="1" z="1"><item id="9067"/><item id="4888"/></tile>
+			<tile x="3" y="2" z="1"><item id="9067"/><item id="1772"/></tile>
+			<tile x="3" y="3" z="1"><item id="9067"/></tile>
+			<tile x="3" y="4" z="1"><item id="9067"/></tile>
+			<tile x="3" y="5" z="1"><item id="9067"/></tile>
+			<tile x="3" y="6" z="1"><item id="9067"/></tile>
+			<tile x="3" y="7" z="1"><item id="9067"/></tile>
+			<tile x="3" y="8" z="1"><item id="9067"/></tile>
+			<tile x="3" y="9" z="1"><item id="9067"/></tile>
+			<tile x="3" y="10" z="1"><item id="9067"/></tile>
+			<tile x="3" y="11" z="1"><item id="9067"/></tile>
+			<tile x="3" y="12" z="1"><item id="9067"/></tile>
+			<tile x="3" y="13" z="1"><item id="9067"/></tile>
+			<tile x="3" y="14" z="1"><item id="9067"/></tile>
+			<tile x="3" y="15" z="1"><item id="9067"/></tile>
+			<tile x="3" y="16" z="1"><item id="9067"/></tile>
+			<tile x="3" y="17" z="1"><item id="9067"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="3" y="18" z="1"><item id="9067"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="3" y="19" z="1"><item id="9067"/><item id="1739"/><item id="1739"/></tile>
+			<tile x="3" y="20" z="1"><item id="4617"/><item id="4885"/></tile>
+			<tile x="4" y="0" z="1"><item id="4616"/><item id="4889"/></tile>
+			<tile x="4" y="1" z="1"><item id="9067"/><item id="1770"/></tile>
+			<tile x="4" y="2" z="1"><item id="9067"/><item id="1772"/></tile>
+			<tile x="4" y="3" z="1"><item id="9067"/></tile>
+			<tile x="4" y="4" z="1"><item id="9067"/><item id="4942"/></tile>
+			<tile x="4" y="5" z="1"><item id="9067"/></tile>
+			<tile x="4" y="6" z="1"><item id="9067"/></tile>
+			<tile x="4" y="7" z="1"><item id="9067"/></tile>
+			<tile x="4" y="8" z="1"><item id="9067"/></tile>
+			<tile x="4" y="9" z="1"><item id="9067"/></tile>
+			<tile x="4" y="10" z="1"><item id="9067"/><item id="4942"/></tile>
+			<tile x="4" y="11" z="1"><item id="9067"/></tile>
+			<tile x="4" y="12" z="1"><item id="9067"/></tile>
+			<tile x="4" y="13" z="1"><item id="9067"/></tile>
+			<tile x="4" y="14" z="1"><item id="9067"/></tile>
+			<tile x="4" y="15" z="1"><item id="9067"/></tile>
+			<tile x="4" y="16" z="1"><item id="9067"/></tile>
+			<tile x="4" y="17" z="1"><item id="9067"/><item id="4942"/></tile>
+			<tile x="4" y="18" z="1"><item id="9067"/><item id="1739"/></tile>
+			<tile x="4" y="19" z="1"><item id="9067"/><item id="1739"/></tile>
+			<tile x="4" y="20" z="1"><item id="4616"/><item id="4885"/></tile>
+			<tile x="5" y="0" z="1"><item id="4618"/><item id="4890"/></tile>
+			<tile x="5" y="1" z="1"><item id="4615"/><item id="4891"/></tile>
+			<tile x="5" y="2" z="1"><item id="9067"/><item id="1772"/></tile>
+			<tile x="5" y="3" z="1"><item id="9067"/></tile>
+			<tile x="5" y="4" z="1"><item id="9067"/></tile>
+			<tile x="5" y="5" z="1"><item id="9067"/></tile>
+			<tile x="5" y="6" z="1"><item id="9067"/></tile>
+			<tile x="5" y="7" z="1"><item id="9067"/></tile>
+			<tile x="5" y="8" z="1"><item id="9067"/></tile>
+			<tile x="5" y="9" z="1"><item id="9067"/></tile>
+			<tile x="5" y="10" z="1"><item id="9067"/></tile>
+			<tile x="5" y="11" z="1"><item id="9067"/></tile>
+			<tile x="5" y="12" z="1"><item id="9067"/></tile>
+			<tile x="5" y="13" z="1"><item id="9067"/></tile>
+			<tile x="5" y="14" z="1"><item id="9067"/></tile>
+			<tile x="5" y="15" z="1"><item id="9067"/></tile>
+			<tile x="5" y="16" z="1"><item id="9067"/></tile>
+			<tile x="5" y="17" z="1"><item id="9067"/></tile>
+			<tile x="5" y="18" z="1"><item id="9067"/></tile>
+			<tile x="5" y="19" z="1"><item id="9067"/></tile>
+			<tile x="5" y="20" z="1"><item id="4614"/><item id="4885"/></tile>
+			<tile x="6" y="0" z="1"><item id="4611"/></tile>
+			<tile x="6" y="1" z="1"><item id="4615"/><item id="1548"/></tile>
+			<tile x="6" y="2" z="1"><item id="4618"/><item id="4891"/></tile>
+			<tile x="6" y="3" z="1"><item id="9067"/></tile>
+			<tile x="6" y="4" z="1"><item id="9067"/></tile>
+			<tile x="6" y="5" z="1"><item id="9067"/></tile>
+			<tile x="6" y="6" z="1"><item id="9067"/></tile>
+			<tile x="6" y="7" z="1"><item id="9067"/><item id="1741"/><item id="1738"/></tile>
+			<tile x="6" y="8" z="1"><item id="9067"/><item id="1738"/></tile>
+			<tile x="6" y="9" z="1"><item id="9067"/><item id="1741"/><item id="1738"/><item id="1741"/></tile>
+			<tile x="6" y="10" z="1"><item id="9067"/></tile>
+			<tile x="6" y="11" z="1"><item id="9067"/></tile>
+			<tile x="6" y="12" z="1"><item id="9067"/></tile>
+			<tile x="6" y="13" z="1"><item id="9067"/></tile>
+			<tile x="6" y="14" z="1"><item id="9067"/></tile>
+			<tile x="6" y="15" z="1"><item id="9067"/></tile>
+			<tile x="6" y="16" z="1"><item id="9067"/></tile>
+			<tile x="6" y="17" z="1"><item id="9067"/></tile>
+			<tile x="6" y="18" z="1"><item id="9067"/><item id="1738"/></tile>
+			<tile x="6" y="19" z="1"><item id="9067"/></tile>
+			<tile x="6" y="20" z="1"><item id="4614"/><item id="4885"/></tile>
+			<tile x="7" y="0" z="1"><item id="4612"/></tile>
+			<tile x="7" y="1" z="1"><item id="4618"/></tile>
+			<tile x="7" y="2" z="1"><item id="4619"/><item id="1548"/></tile>
+			<tile x="7" y="3" z="1"><item id="4614"/><item id="4891"/></tile>
+			<tile x="7" y="4" z="1"><item id="9067"/></tile>
+			<tile x="7" y="5" z="1"><item id="9067"/></tile>
+			<tile x="7" y="6" z="1"><item id="9067"/></tile>
+			<tile x="7" y="7" z="1"><item id="9067"/><item id="1741"/><item id="1738"/><item id="1738"/><item id="1741"/></tile>
+			<tile x="7" y="8" z="1"><item id="9067"/><item id="1741"/><item id="1741"/></tile>
+			<tile x="7" y="9" z="1"><item id="9067"/><item id="1741"/><item id="1738"/></tile>
+			<tile x="7" y="10" z="1"><item id="9067"/><item id="1741"/><item id="1741"/></tile>
+			<tile x="7" y="11" z="1"><item id="9067"/><item id="1741"/></tile>
+			<tile x="7" y="12" z="1"><item id="9067"/></tile>
+			<tile x="7" y="13" z="1"><item id="9067"/></tile>
+			<tile x="7" y="14" z="1"><item id="9067"/></tile>
+			<tile x="7" y="15" z="1"><item id="9067"/></tile>
+			<tile x="7" y="16" z="1"><item id="9067"/><item id="1738"/></tile>
+			<tile x="7" y="17" z="1"><item id="9067"/><item id="1738"/><item id="1738"/></tile>
+			<tile x="7" y="18" z="1"><item id="9067"/><item id="1738"/><item id="1738"/></tile>
+			<tile x="7" y="19" z="1"><item id="9067"/><item id="1738"/><item id="1738"/></tile>
+			<tile x="7" y="20" z="1"><item id="4615"/><item id="4885"/></tile>
+			<tile x="8" y="0" z="1"><item id="4612"/></tile>
+			<tile x="8" y="1" z="1"><item id="4608"/></tile>
+			<tile x="8" y="2" z="1"><item id="4617"/></tile>
+			<tile x="8" y="3" z="1"><item id="4616"/><item id="1548"/></tile>
+			<tile x="8" y="4" z="1"><item id="4619"/><item id="4893"/></tile>
+			<tile x="8" y="5" z="1"><item id="4618"/><item id="4884"/></tile>
+			<tile x="8" y="6" z="1"><item id="4618"/><item id="4884"/></tile>
+			<tile x="8" y="7" z="1"><item id="4618"/><item id="4884"/></tile>
+			<tile x="8" y="8" z="1"><item id="4615"/><item id="4884"/></tile>
+			<tile x="8" y="9" z="1"><item id="4616"/><item id="4884"/></tile>
+			<tile x="8" y="10" z="1"><item id="4615"/><item id="4884"/></tile>
+			<tile x="8" y="11" z="1"><item id="4614"/><item id="4884"/></tile>
+			<tile x="8" y="12" z="1"><item id="4619"/><item id="4884"/></tile>
+			<tile x="8" y="13" z="1"><item id="4618"/><item id="4884"/></tile>
+			<tile x="8" y="14" z="1"><item id="4618"/><item id="4884"/></tile>
+			<tile x="8" y="15" z="1"><item id="4616"/><item id="4884"/></tile>
+			<tile x="8" y="16" z="1"><item id="4614"/><item id="4884"/></tile>
+			<tile x="8" y="17" z="1"><item id="4615"/><item id="4884"/></tile>
+			<tile x="8" y="18" z="1"><item id="4619"/><item id="4884"/></tile>
+			<tile x="8" y="19" z="1"><item id="4618"/><item id="4884"/></tile>
+			<tile x="8" y="20" z="1"><item id="4614"/><item id="4896"/></tile>
+		</composite>
+	</brush>
+
+	<tileset name="Pridexia - Navios">
+		<doodad>
+			<brush name="pridexia navio 9x21"/>
+		</doodad>
+	</tileset>
+
+</materialsextension>
