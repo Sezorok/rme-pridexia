@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Caverna — ATESTADO no mapa global do Tibia (map1.otbm).
+  Cada id abaixo aparece em >= 3% dos 1336 aglomerados reais do tema.
+  Derivado por mapgen/gen_palette_por_uso.py. Nao editar a mao.
+  O gerador procedural deve sortear DAQUI.
+-->
+<materialsextension name="Pridexia Caverna" author="Pridexia (derivado do uso real)"
+	description="Pridexia Caverna" client="15.24">
+
+	<!-- nucleo: >=10% dos 1336 caverna reais -->
+	<tileset name="Pridexia - Caverna / nucleo">
+		<doodad>
+			<brush name="stalagmite"/>
+			<brush name="mud cave rocks"/>
+		</doodad>
+		<terrain>
+			<brush name="cave"/>
+			<brush name="cave (alternate border)"/>
+			<brush name="cave hole"/>
+			<brush name="cave ropespot"/>
+			<brush name="cave small hole"/>
+			<brush name="cave pickhole"/>
+		</terrain>
+		<raw>
+			<item id="356"/>
+			<item id="357"/>
+			<item id="358"/>
+			<item id="359"/>
+			<item id="360"/>
+			<item id="361"/>
+			<item id="362"/>
+			<item id="363"/>
+			<item id="364"/>
+			<item id="365"/>
+			<item id="366"/>
+			<item id="367"/>
+			<item id="3610"/>
+			<item id="3611"/>
+			<item id="3612"/>
+			<item id="3613"/>
+			<item id="3614"/>
+			<item id="3621"/>
+			<item id="3622"/>
+			<item id="3623"/>
+			<item id="4773"/>
+			<item id="4774"/>
+			<item id="4776"/>
+			<item id="4796"/>
+			<item id="4799"/>
+			<item id="5557"/>
+			<item id="5558"/>
+			<item id="5559"/>
+			<item id="5560"/>
+			<item id="5561"/>
+			<item id="5562"/>
+			<item id="5563"/>
+			<item id="5564"/>
+			<item id="5631"/>
+			<item id="5632"/>
+			<item id="5633"/>
+			<item id="5634"/>
+			<item id="5635"/>
+			<item id="5636"/>
+			<item id="5637"/>
+			<item id="5638"/>
+			<item id="5647"/>
+			<item id="5649"/>
+			<item id="5650"/>
+			<item id="5651"/>
+			<item id="5683"/>
+			<item id="5684"/>
+			<item id="5685"/>
+			<item id="5686"/>
+			<item id="6476"/>
+			<item id="6478"/>
+			<item id="6479"/>
+			<item id="6480"/>
+			<item id="6483"/>
+			<item id="8278"/>
+			<item id="9021"/>
+			<item id="9022"/>
+			<item id="9023"/>
+			<item id="9024"/>
+			<item id="9025"/>
+			<item id="9026"/>
+			<item id="9027"/>
+			<item id="9028"/>
+			<item id="9029"/>
+			<item id="9030"/>
+			<item id="9031"/>
+			<item id="9032"/>
+			<item id="9033"/>
+			<item id="9034"/>
+			<item id="9035"/>
+			<item id="9036"/>
+			<item id="9037"/>
+			<item id="9038"/>
+			<item id="9042"/>
+			<item id="9059"/>
+		</raw>
+	</tileset>
+
+	<!-- comum: 3-10% -->
+	<tileset name="Pridexia - Caverna / comum">
+		<raw>
+			<item id="383"/>
+			<item id="493"/>
+			<item id="598"/>
+			<item id="1285"/>
+			<item id="1386"/>
+			<item id="1487"/>
+			<item id="2784"/>
+			<item id="4015"/>
+			<item id="4018"/>
+			<item id="4177"/>
+			<item id="4615"/>
+			<item id="4616"/>
+			<item id="4617"/>
+			<item id="4618"/>
+			<item id="4772"/>
+			<item id="4775"/>
+			<item id="4777"/>
+			<item id="4778"/>
+			<item id="4779"/>
+			<item id="4780"/>
+			<item id="4781"/>
+			<item id="4782"/>
+			<item id="4783"/>
+			<item id="4797"/>
+			<item id="4798"/>
+			<item id="4800"/>
+			<item id="4801"/>
+			<item id="4802"/>
+			<item id="4803"/>
+			<item id="4804"/>
+			<item id="4805"/>
+			<item id="4806"/>
+			<item id="4807"/>
+			<item id="4808"/>
+			<item id="4809"/>
+			<item id="4810"/>
+			<item id="4811"/>
+			<item id="4812"/>
+			<item id="4815"/>
+			<item id="4816"/>
+			<item id="4817"/>
+			<item id="4818"/>
+			<item id="4819"/>
+			<item id="5064"/>
+			<item id="5639"/>
+			<item id="5640"/>
+			<item id="5747"/>
+			<item id="5750"/>
+			<item id="5866"/>
+			<item id="5868"/>
+			<item id="6477"/>
+			<item id="6481"/>
+			<item id="6482"/>
+			<item id="6484"/>
+			<item id="6485"/>
+			<item id="6486"/>
+			<item id="6487"/>
+			<item id="6488"/>
+			<item id="8249"/>
+			<item id="8250"/>
+			<item id="8251"/>
+			<item id="8252"/>
+			<item id="8276"/>
+		</raw>
+	</tileset>
+
+</materialsextension>

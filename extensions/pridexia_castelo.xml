@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Castelo — ATESTADO no mapa global do Tibia (map1.otbm).
+  Cada id abaixo aparece em >= 3% dos 3099 aglomerados reais do tema.
+  Derivado por mapgen/gen_palette_por_uso.py. Nao editar a mao.
+  O gerador procedural deve sortear DAQUI.
+-->
+<materialsextension name="Pridexia Castelo" author="Pridexia (derivado do uso real)"
+	description="Pridexia Castelo" client="15.24">
+
+	<!-- nucleo: >=10% dos 3099 castelo reais -->
+	<tileset name="Pridexia - Castelo / nucleo">
+		<terrain>
+			<brush name="marble wall"/>
+			<brush name="stone wall"/>
+		</terrain>
+		<raw>
+			<item id="406"/>
+			<item id="1049"/>
+			<item id="1050"/>
+			<item id="1051"/>
+			<item id="1052"/>
+			<item id="1053"/>
+			<item id="1054"/>
+			<item id="1111"/>
+			<item id="1112"/>
+			<item id="1113"/>
+			<item id="1114"/>
+			<item id="1115"/>
+			<item id="1158"/>
+			<item id="1159"/>
+			<item id="1269"/>
+			<item id="1270"/>
+			<item id="1386"/>
+			<item id="1754"/>
+			<item id="1755"/>
+			<item id="2038"/>
+			<item id="2040"/>
+			<item id="5010"/>
+			<item id="5303"/>
+			<item id="5304"/>
+			<item id="5517"/>
+			<item id="6217"/>
+			<item id="6218"/>
+			<item id="6219"/>
+			<item id="9043"/>
+			<item id="9046"/>
+			<item id="9047"/>
+			<item id="9050"/>
+			<item id="9053"/>
+			<item id="9054"/>
+			<item id="9067"/>
+			<item id="9145"/>
+			<item id="9146"/>
+		</raw>
+	</tileset>
+
+	<!-- comum: 3-10% -->
+	<tileset name="Pridexia - Castelo / comum">
+		<raw>
+			<item id="103"/>
+			<item id="106"/>
+			<item id="405"/>
+			<item id="407"/>
+			<item id="413"/>
+			<item id="415"/>
+			<item id="424"/>
+			<item id="431"/>
+			<item id="433"/>
+			<item id="724"/>
+			<item id="777"/>
+			<item id="778"/>
+			<item id="779"/>
+			<item id="781"/>
+			<item id="836"/>
+			<item id="919"/>
+			<item id="1055"/>
+			<item id="1056"/>
+			<item id="1057"/>
+			<item id="1058"/>
+			<item id="1116"/>
+			<item id="1117"/>
+			<item id="1118"/>
+			<item id="1119"/>
+			<item id="1249"/>
+			<item id="1252"/>
+			<item id="1271"/>
+			<item id="1272"/>
+			<item id="1385"/>
+			<item id="1481"/>
+			<item id="1484"/>
+			<item id="1524"/>
+			<item id="1526"/>
+			<item id="1590"/>
+			<item id="1591"/>
+			<item id="1617"/>
+			<item id="1618"/>
+			<item id="1619"/>
+			<item id="1621"/>
+			<item id="1760"/>
+			<item id="1761"/>
+			<item id="1777"/>
+			<item id="1794"/>
+			<item id="1796"/>
+			<item id="1800"/>
+			<item id="1801"/>
+			<item id="1802"/>
+			<item id="2037"/>
+			<item id="2039"/>
+			<item id="2059"/>
+			<item id="2061"/>
+			<item id="2704"/>
+			<item id="2705"/>
+			<item id="2767"/>
+			<item id="3612"/>
+			<item id="4542"/>
+			<item id="4543"/>
+			<item id="4545"/>
+			<item id="4608"/>
+			<item id="4609"/>
+			<item id="4610"/>
+			<item id="4611"/>
+			<item id="4612"/>
+			<item id="4613"/>
+			<item id="5011"/>
+			<item id="5515"/>
+			<item id="5771"/>
+			<item id="5773"/>
+			<item id="6255"/>
+			<item id="6257"/>
+			<item id="6444"/>
+			<item id="6445"/>
+			<item id="6448"/>
+			<item id="6449"/>
+			<item id="8033"/>
+			<item id="8036"/>
+			<item id="8038"/>
+			<item id="8133"/>
+			<item id="8284"/>
+			<item id="8423"/>
+			<item id="9026"/>
+			<item id="9044"/>
+			<item id="9045"/>
+			<item id="9048"/>
+			<item id="9049"/>
+			<item id="9051"/>
+			<item id="9052"/>
+			<item id="9055"/>
+			<item id="9056"/>
+			<item id="9057"/>
+			<item id="9058"/>
+			<item id="9140"/>
+			<item id="9144"/>
+			<item id="9224"/>
+			<item id="9225"/>
+			<item id="9251"/>
+			<item id="9311"/>
+			<item id="9315"/>
+			<item id="9316"/>
+			<item id="9336"/>
+			<item id="9337"/>
+			<item id="9362"/>
+			<item id="9476"/>
+			<item id="9484"/>
+			<item id="9573"/>
+			<item id="9609"/>
+			<item id="9610"/>
+			<item id="9747"/>
+			<item id="9749"/>
+			<item id="9846"/>
+		</raw>
+	</tileset>
+
+</materialsextension>

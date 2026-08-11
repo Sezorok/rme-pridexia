@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Caverna — CANDIDATOS. Plausivel e NAO comprovado.
+  "fraco" = aparece em 1-3% dos 1336 aglomerados reais: existe uso, e pouco.
+  "so por nome" = veio do tileset/nome do tema e NAO tem uso atestado nenhum.
+  Candidato nao e lixo: Pridexia nao e Tibia, e peca pouco usada no mapa
+  oficial pode ser justamente a que a gente quer. Mas o gerador procedural
+  NAO deve sortear daqui sem o William aprovar.
+-->
+<materialsextension name="Pridexia Caverna (candidatos)" author="Pridexia (derivado do uso real)"
+	description="Pridexia Caverna (candidatos)" client="15.24">
+
+	<!-- visto em 1-3% dos caverna reais -->
+	<tileset name="Pridexia - Caverna candidatos / uso fraco">
+		<raw>
+			<item id="101"/>
+			<item id="106"/>
+			<item id="194"/>
+			<item id="351"/>
+			<item id="352"/>
+			<item id="353"/>
+			<item id="354"/>
+			<item id="355"/>
+			<item id="371"/>
+			<item id="372"/>
+			<item id="373"/>
+			<item id="374"/>
+			<item id="375"/>
+			<item id="376"/>
+			<item id="377"/>
+			<item id="378"/>
+			<item id="385"/>
+			<item id="387"/>
+			<item id="389"/>
+			<item id="390"/>
+			<item id="391"/>
+			<item id="424"/>
+			<item id="599"/>
+			<item id="600"/>
+			<item id="601"/>
+			<item id="919"/>
+			<item id="1025"/>
+			<item id="1026"/>
+			<item id="1027"/>
+			<item id="1029"/>
+			<item id="1036"/>
+			<item id="1037"/>
+			<item id="1286"/>
+			<item id="1287"/>
+			<item id="1288"/>
+			<item id="1289"/>
+			<item id="1290"/>
+			<item id="1291"/>
+			<item id="1292"/>
+			<item id="1293"/>
+			<item id="1294"/>
+			<item id="1295"/>
+			<item id="1297"/>
+			<item id="1299"/>
+			<item id="1300"/>
+			<item id="1301"/>
+			<item id="1302"/>
+			<item id="1303"/>
+			<item id="1304"/>
+			<item id="1306"/>
+			<item id="1429"/>
+			<item id="1434"/>
+			<item id="1488"/>
+			<item id="1489"/>
+			<item id="1491"/>
+			<item id="1903"/>
+			<item id="1945"/>
+			<item id="2025"/>
+			<item id="2027"/>
+			<item id="2059"/>
+			<item id="2061"/>
+			<item id="2230"/>
+			<item id="2769"/>
+			<item id="2770"/>
+			<item id="2814"/>
+			<item id="3608"/>
+			<item id="3632"/>
+			<item id="4169"/>
+			<item id="4171"/>
+			<item id="4172"/>
+			<item id="4173"/>
+			<item id="4174"/>
+			<item id="4175"/>
+			<item id="4176"/>
+			<item id="4179"/>
+			<item id="4614"/>
+			<item id="4619"/>
+			<item id="4679"/>
+			<item id="4681"/>
+			<item id="4691"/>
+			<item id="4701"/>
+			<item id="4702"/>
+			<item id="4813"/>
+			<item id="4814"/>
+			<item id="5066"/>
+			<item id="5067"/>
+			<item id="5751"/>
+			<item id="5815"/>
+			<item id="7536"/>
+			<item id="8121"/>
+			<item id="8123"/>
+			<item id="8124"/>
+			<item id="8126"/>
+			<item id="8128"/>
+			<item id="8130"/>
+			<item id="8133"/>
+			<item id="8174"/>
+			<item id="9039"/>
+			<item id="9040"/>
+			<item id="9041"/>
+			<item id="12912"/>
+			<item id="18560"/>
+			<item id="18566"/>
+			<item id="18568"/>
+			<item id="18569"/>
+			<item id="18570"/>
+			<item id="18571"/>
+			<item id="18572"/>
+			<item id="18573"/>
+			<item id="18574"/>
+			<item id="18575"/>
+			<item id="18578"/>
+			<item id="18919"/>
+			<item id="18923"/>
+			<item id="18925"/>
+		</raw>
+	</tileset>
+
+	<!-- sem uso atestado — entrou por estar no tileset - -->
+	<tileset name="Pridexia - Caverna candidatos / so por nome">
+	</tileset>
+
+</materialsextension>
