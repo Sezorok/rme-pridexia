@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PRIDEXIA - Pontes (PROTOTIPO). GERADO por mapgen/gen_pontes_proto.py.
+
+  O mapa global do Tibia nao tem ponte sobre agua: quem cruza agua la e navio
+  ou vau natural (mine_pontes.py). Entao estes vaos sao PROJETO, montados com as
+  pecas que a mineracao achou e com a orientacao de cada guarda-corpo MEDIDA no
+  mapa (onde fica o tabuleiro vizinho), nao lida do sprite.
+
+  Carimbar no andar ACIMA da agua. O composite so escreve em z=0 de proposito:
+  escrever em z=1 apagaria o rio.
+
+  NAO HA PILAR nesta familia: vao longo vai parecer flutuar.
+  PROTOTIPO, aguardando o veredito do William no editor.
+-->
+<materialsextension name="Pridexia Pontes" author="Pridexia (projeto)"
+	description="Vaos prototipo, pecas mineradas e orientacao medida."
+	client="15.24">
+
+	<!-- vao leste-oeste, 7 de comprimento, 1 faixa de tabuleiro -->
+	<brush name="pridexia ponte L-O 7x3" type="doodad" server_lookid="11898"
+		draggable="true" on_blocking="true" thickness="100/100">
+		<composite chance="10">
+			<tile x="0" y="0" z="0"><item id="11898"/></tile>
+			<tile x="1" y="0" z="0"><item id="11899"/></tile>
+			<tile x="2" y="0" z="0"><item id="11901"/></tile>
+			<tile x="3" y="0" z="0"><item id="11902"/></tile>
+			<tile x="4" y="0" z="0"><item id="11898"/></tile>
+			<tile x="5" y="0" z="0"><item id="11899"/></tile>
+			<tile x="6" y="0" z="0"><item id="11901"/></tile>
+			<tile x="0" y="1" z="0"><item id="11856"/></tile>
+			<tile x="1" y="1" z="0"><item id="11857"/></tile>
+			<tile x="2" y="1" z="0"><item id="11858"/></tile>
+			<tile x="3" y="1" z="0"><item id="11859"/></tile>
+			<tile x="4" y="1" z="0"><item id="11856"/></tile>
+			<tile x="5" y="1" z="0"><item id="11857"/></tile>
+			<tile x="6" y="1" z="0"><item id="11858"/></tile>
+			<tile x="0" y="2" z="0"><item id="11903"/></tile>
+			<tile x="1" y="2" z="0"><item id="11904"/></tile>
+			<tile x="2" y="2" z="0"><item id="11906"/></tile>
+			<tile x="3" y="2" z="0"><item id="11907"/></tile>
+			<tile x="4" y="2" z="0"><item id="11903"/></tile>
+			<tile x="5" y="2" z="0"><item id="11904"/></tile>
+			<tile x="6" y="2" z="0"><item id="11906"/></tile>
+		</composite>
+	</brush>
+
+	<!-- vao norte-sul, 7 de comprimento, 1 faixa -->
+	<brush name="pridexia ponte N-S 3x7" type="doodad" server_lookid="11868"
+		draggable="true" on_blocking="true" thickness="100/100">
+		<composite chance="10">
+			<tile x="0" y="0" z="0"><item id="11868"/></tile>
+			<tile x="1" y="0" z="0"><item id="11860"/></tile>
+			<tile x="2" y="0" z="0"><item id="11873"/></tile>
+			<tile x="0" y="1" z="0"><item id="11869"/></tile>
+			<tile x="1" y="1" z="0"><item id="11861"/></tile>
+			<tile x="2" y="1" z="0"><item id="11874"/></tile>
+			<tile x="0" y="2" z="0"><item id="11870"/></tile>
+			<tile x="1" y="2" z="0"><item id="11862"/></tile>
+			<tile x="2" y="2" z="0"><item id="11875"/></tile>
+			<tile x="0" y="3" z="0"><item id="11871"/></tile>
+			<tile x="1" y="3" z="0"><item id="11863"/></tile>
+			<tile x="2" y="3" z="0"><item id="11876"/></tile>
+			<tile x="0" y="4" z="0"><item id="11868"/></tile>
+			<tile x="1" y="4" z="0"><item id="11860"/></tile>
+			<tile x="2" y="4" z="0"><item id="11873"/></tile>
+			<tile x="0" y="5" z="0"><item id="11869"/></tile>
+			<tile x="1" y="5" z="0"><item id="11861"/></tile>
+			<tile x="2" y="5" z="0"><item id="11874"/></tile>
+			<tile x="0" y="6" z="0"><item id="11870"/></tile>
+			<tile x="1" y="6" z="0"><item id="11862"/></tile>
+			<tile x="2" y="6" z="0"><item id="11875"/></tile>
+		</composite>
+	</brush>
+
+	<!-- vao leste-oeste largo, 9 de comprimento, 2 faixas (passagem de carroca) -->
+	<brush name="pridexia ponte L-O larga 9x4" type="doodad" server_lookid="11898"
+		draggable="true" on_blocking="true" thickness="100/100">
+		<composite chance="10">
+			<tile x="0" y="0" z="0"><item id="11898"/></tile>
+			<tile x="1" y="0" z="0"><item id="11899"/></tile>
+			<tile x="2" y="0" z="0"><item id="11901"/></tile>
+			<tile x="3" y="0" z="0"><item id="11902"/></tile>
+			<tile x="4" y="0" z="0"><item id="11898"/></tile>
+			<tile x="5" y="0" z="0"><item id="11899"/></tile>
+			<tile x="6" y="0" z="0"><item id="11901"/></tile>
+			<tile x="7" y="0" z="0"><item id="11902"/></tile>
+			<tile x="8" y="0" z="0"><item id="11898"/></tile>
+			<tile x="0" y="1" z="0"><item id="11856"/></tile>
+			<tile x="1" y="1" z="0"><item id="11857"/></tile>
+			<tile x="2" y="1" z="0"><item id="11858"/></tile>
+			<tile x="3" y="1" z="0"><item id="11859"/></tile>
+			<tile x="4" y="1" z="0"><item id="11856"/></tile>
+			<tile x="5" y="1" z="0"><item id="11857"/></tile>
+			<tile x="6" y="1" z="0"><item id="11858"/></tile>
+			<tile x="7" y="1" z="0"><item id="11859"/></tile>
+			<tile x="8" y="1" z="0"><item id="11856"/></tile>
+			<tile x="0" y="2" z="0"><item id="11856"/></tile>
+			<tile x="1" y="2" z="0"><item id="11857"/></tile>
+			<tile x="2" y="2" z="0"><item id="11858"/></tile>
+			<tile x="3" y="2" z="0"><item id="11859"/></tile>
+			<tile x="4" y="2" z="0"><item id="11856"/></tile>
+			<tile x="5" y="2" z="0"><item id="11857"/></tile>
+			<tile x="6" y="2" z="0"><item id="11858"/></tile>
+			<tile x="7" y="2" z="0"><item id="11859"/></tile>
+			<tile x="8" y="2" z="0"><item id="11856"/></tile>
+			<tile x="0" y="3" z="0"><item id="11903"/></tile>
+			<tile x="1" y="3" z="0"><item id="11904"/></tile>
+			<tile x="2" y="3" z="0"><item id="11906"/></tile>
+			<tile x="3" y="3" z="0"><item id="11907"/></tile>
+			<tile x="4" y="3" z="0"><item id="11903"/></tile>
+			<tile x="5" y="3" z="0"><item id="11904"/></tile>
+			<tile x="6" y="3" z="0"><item id="11906"/></tile>
+			<tile x="7" y="3" z="0"><item id="11907"/></tile>
+			<tile x="8" y="3" z="0"><item id="11903"/></tile>
+		</composite>
+	</brush>
+
+	<tileset name="Pridexia - Pontes">
+		<doodad>
+			<brush name="pridexia ponte L-O 7x3"/>
+			<brush name="pridexia ponte N-S 3x7"/>
+			<brush name="pridexia ponte L-O larga 9x4"/>
+		</doodad>
+	</tileset>
+
+</materialsextension>
