@@ -2203,4 +2203,118 @@
 			<item fromid="9726"/>
 		</raw>
 	</tileset>
+<!-- ==== PRIDEXIA (gerado por rme-palette/build_rme_palette.py) ==== -->
+	<tileset name="Pridexia metal">
+		<items>
+			<item id="5880"/>
+			<item fromid="13984" toid="14005"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia wood">
+		<items>
+			<item fromid="14006" toid="14028"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia leather">
+		<items>
+			<item fromid="14029" toid="14041"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia stations">
+		<items>
+			<item fromid="14042" toid="14078"/>
+			<item fromid="14137" toid="14139"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia grindstones">
+		<items>
+			<item fromid="14084" toid="14090"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia daggers">
+		<items>
+			<item fromid="14079" toid="14081"/>
+			<item fromid="14091" toid="14095"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia cloth">
+		<items>
+			<item fromid="14096" toid="14115"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia cloth-light">
+		<items>
+			<item fromid="14116" toid="14120"/>
+			<item fromid="14126" toid="14135"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia upgrade-reagents">
+		<items>
+			<item fromid="14082" toid="14083"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia tier-fill">
+		<items>
+			<item fromid="14140" toid="14157"/>
+			<item fromid="14166" toid="14181"/>
+			<item fromid="14183" toid="14205"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia dyes+pigments">
+		<items>
+			<item fromid="14121" toid="14125"/>
+			<item fromid="14158" toid="14165"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia turret">
+		<items>
+			<item fromid="14206" toid="14213"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia gems">
+		<items>
+			<item fromid="14214" toid="14248"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia focus-art">
+		<items>
+			<item fromid="14276" toid="14288"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia tier-fill-leva2">
+		<items>
+			<item fromid="14249" toid="14266"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia jewelry">
+		<items>
+			<item fromid="14296" toid="14305"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia essence">
+		<items>
+			<item fromid="14306" toid="14312"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia focus-ladder">
+		<items>
+			<item fromid="14267" toid="14274"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia sap-art">
+		<items>
+			<item id="14136"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia shipyard">
+		<items>
+			<item fromid="45597" toid="45599"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia ship-parts">
+		<items>
+			<item fromid="45600" toid="45632"/>
+		</items>
+	</tileset>
+<!-- ==== fim PRIDEXIA ==== -->
 </materials>
