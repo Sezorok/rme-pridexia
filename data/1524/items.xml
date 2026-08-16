@@ -67552,4 +67552,1799 @@
 	<item id="44754" article="a" name="huge lily pad"/>
 	<item fromid="44755" toid="44757" article="a" name="pillar"/>
 
+	<!-- ==== PRIDEXIA (build_rme_palette.py) ==== -->
+	<item id="5880" name="iron ore">
+		<attribute key="weight" value="200" />
+		<attribute key="showcount" value="0" />
+	</item>
+	<item id="13985" article="a" name="tin ore">
+		<attribute key="weight" value="180" />
+		<attribute key="description" value="Raw tin. Alloyed with copper to make bronze." />
+	</item>
+	<item id="13986" name="coal">
+		<attribute key="weight" value="90" />
+		<attribute key="description" value="Fuel for every furnace - and the carbon that turns iron into steel." />
+	</item>
+	<item id="13987" article="an" name="obsidian">
+		<attribute key="weight" value="250" />
+		<attribute key="description" value="Volcanic glass from the danger zones. Alloyed with steel into dark steel." />
+	</item>
+	<item id="13988" article="a" name="heartstone">
+		<attribute key="weight" value="300" />
+		<attribute key="description" value="The heart of the mountain, torn from its deepest guarded places. The soul of mithril." />
+	</item>
+	<item id="13989" article="a" name="bronze bar">
+		<attribute key="weight" value="220" />
+		<attribute key="description" value="Tier 1 alloy: copper and tin." />
+	</item>
+	<item id="13990" article="an" name="iron bar">
+		<attribute key="weight" value="250" />
+		<attribute key="description" value="Tier 2 alloy: bronze reforged with iron ore." />
+	</item>
+	<item id="13991" article="a" name="steel bar">
+		<attribute key="weight" value="260" />
+		<attribute key="description" value="Tier 3 alloy: iron hardened with coal." />
+	</item>
+	<item id="13992" article="a" name="dark steel bar">
+		<attribute key="weight" value="300" />
+		<attribute key="description" value="Tier 4 alloy: steel fused with obsidian." />
+	</item>
+	<item id="13993" article="a" name="mithril bar">
+		<attribute key="weight" value="180" />
+		<attribute key="description" value="Tier 5 alloy: dark steel awakened by a heartstone. Legend is forged from this." />
+	</item>
+	<item id="13994" article="a" name="coal vein">
+		<attribute key="description" value="A seam of coal. Any pickaxe will do." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14006" article="a" name="pine log">
+		<attribute key="weight" value="300" />
+		<attribute key="description" value="Raw pine from the starting forest. Sawn (with resin) into pine planks." />
+	</item>
+	<item id="14007" article="an" name="oak log">
+		<attribute key="weight" value="350" />
+		<attribute key="description" value="A sturdy oak log. Reforges pine plank into oak plank." />
+	</item>
+	<item id="14008" article="an" name="ash log">
+		<attribute key="weight" value="320" />
+		<attribute key="description" value="Pale ash wood from the mid forests." />
+	</item>
+	<item id="14009" article="an" name="ebony log">
+		<attribute key="weight" value="400" />
+		<attribute key="description" value="Dark ebony from the shadowed woods." />
+	</item>
+	<item id="14010" article="a" name="heartwood">
+		<attribute key="weight" value="300" />
+		<attribute key="description" value="The glowing heart of an elder tree. The soul of elderwood; legend is carved from it." />
+	</item>
+	<item id="14011" article="a" name="dragonsblood resin">
+		<attribute key="weight" value="80" />
+		<attribute key="description" value="Sticky resin wept by the dragonsblood tree. Binds the first planks." />
+	</item>
+	<item id="14012" article="a" name="pine plank">
+		<attribute key="weight" value="250" />
+		<attribute key="description" value="Tier 1 plank: pine and resin." />
+	</item>
+	<item id="14013" article="an" name="oak plank">
+		<attribute key="weight" value="280" />
+		<attribute key="description" value="Tier 2 plank: pine plank reforged with oak." />
+	</item>
+	<item id="14014" article="an" name="ash plank">
+		<attribute key="weight" value="300" />
+		<attribute key="description" value="Tier 3 plank: oak plank layered with ash." />
+	</item>
+	<item id="14015" article="an" name="ebony plank">
+		<attribute key="weight" value="340" />
+		<attribute key="description" value="Tier 4 plank: ash plank fused with ebony." />
+	</item>
+	<item id="14016" article="an" name="elderwood plank">
+		<attribute key="weight" value="220" />
+		<attribute key="description" value="Tier 5 plank: ebony plank awakened by heartwood. Legend is carved from this." />
+	</item>
+	<item id="14017" article="a" name="pine tree">
+		<attribute key="description" value="A pine tree. Any axe will do." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14018" article="a" name="pine stump">
+		<attribute key="description" value="A felled pine stump." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14019" article="an" name="oak tree">
+		<attribute key="description" value="An oak tree." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14020" article="an" name="oak stump">
+		<attribute key="description" value="A felled oak stump." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14021" article="an" name="ash tree">
+		<attribute key="description" value="An ash tree." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14022" article="an" name="ash stump">
+		<attribute key="description" value="A felled ash stump." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14023" article="an" name="ebony tree">
+		<attribute key="description" value="An ebony tree of the shadowed woods." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14024" article="an" name="ebony stump">
+		<attribute key="description" value="A felled ebony stump." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14025" article="an" name="elder tree">
+		<attribute key="description" value="An elder tree, its core alight with heartwood." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14026" article="an" name="elder stump">
+		<attribute key="description" value="A felled elder stump, embers still glowing." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14027" article="a" name="dragonsblood tree">
+		<attribute key="description" value="A dragonsblood tree weeping resin." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14028" article="a" name="dragonsblood stump">
+		<attribute key="description" value="A felled dragonsblood stump." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14029" article="a" name="light pelt">
+		<attribute key="weight" value="180" />
+		<attribute key="description" value="A thin hide from a weak beast. Tanned (with salt) into light leather." />
+	</item>
+	<item id="14030" article="a" name="thick pelt">
+		<attribute key="weight" value="220" />
+		<attribute key="description" value="A sturdy hide. Tanned with light leather into thick leather." />
+	</item>
+	<item id="14031" article="a" name="beast pelt">
+		<attribute key="weight" value="260" />
+		<attribute key="description" value="A shaggy hide from a fierce beast. Tanned with thick leather into hard leather." />
+	</item>
+	<item id="14032" article="a" name="dragonskin">
+		<attribute key="weight" value="300" />
+		<attribute key="description" value="Scaled hide flayed from a dragon. Tanned with hard leather into dragonleather." />
+	</item>
+	<item id="14033" article="a" name="hearthpelt">
+		<attribute key="weight" value="340" />
+		<attribute key="description" value="A rune-marked hide seared by Heavenfall. Tanned with dragonleather into hearthleather." />
+	</item>
+	<item id="14034" article="a" name="light leather">
+		<attribute key="weight" value="150" />
+		<attribute key="description" value="Supple leather tanned from light pelts. The base of every leather good." />
+	</item>
+	<item id="14035" article="a" name="thick leather">
+		<attribute key="weight" value="190" />
+		<attribute key="description" value="Tough leather for medium armor." />
+	</item>
+	<item id="14036" article="a" name="hard leather">
+		<attribute key="weight" value="230" />
+		<attribute key="description" value="Hardened leather that turns a blade." />
+	</item>
+	<item id="14037" article="a" name="dragonleather">
+		<attribute key="weight" value="270" />
+		<attribute key="description" value="Scaled leather, light yet near-impervious." />
+	</item>
+	<item id="14038" article="a" name="hearthleather">
+		<attribute key="weight" value="310" />
+		<attribute key="description" value="Leather cured in celestial fire - the finest a tanner can make." />
+	</item>
+	<item id="14039" article="a" name="salt">
+		<attribute key="weight" value="80" />
+		<attribute key="description" value="Coarse rock salt, mined from a deposit. Used to tan light leather." />
+	</item>
+	<item id="14040" article="a" name="salt deposit">
+		<attribute key="description" value="A crust of rock salt. Any pickaxe will do." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14041" name="depleted salt deposit">
+		<attribute key="description" value="An exhausted salt crust." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14042" article="a" name="blacksmith bench">
+		<attribute key="description" value="Anvil, hammer and a hot forge. Metal weapons and shields are made here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14053" article="a" name="blacksmith bench">
+		<attribute key="description" value="Anvil, hammer and a hot forge. Metal weapons and shields are made here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14064" />
+	</item>
+	<item id="14064" article="a" name="blacksmith bench kit">
+		<attribute key="description" value="Use it inside your house to set up a blacksmith bench." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45612" article="a" name="broken planking">
+		<attribute key="description" value="Hull timber, still roped together. It will not float for long." />
+		<attribute key="containerSize" value="8" />
+		<attribute key="moveable" value="0" />
+	</item>
+	<item id="45613" article="a" name="drifting cargo">
+		<attribute key="description" value="A stove-in crate and a barrel on its side. Someone lost this today." />
+		<attribute key="containerSize" value="8" />
+		<attribute key="moveable" value="0" />
+	</item>
+	<item id="45614" article="a" name="snapped mast">
+		<attribute key="description" value="A spar with the yard broken and the canvas dragging." />
+		<attribute key="containerSize" value="8" />
+		<attribute key="moveable" value="0" />
+	</item>
+	<item id="45609" article="a" name="solid shot">
+		<attribute key="description" value="A round of solid iron. Brute mass: it cracks rigid plate, hide soaks it." />
+		<attribute key="weight" value="1200" />
+		<attribute key="moveable" value="1" />
+		<!-- PEGAR e EMPILHAR nao se declaram aqui: moram no items.otb, e so' la'
+		     (items.cpp:485 le FLAG_PICKUPABLE/FLAG_STACKABLE das flags do OTB). As duas
+		     linhas que estavam neste lugar eram placebo, e me enganaram por um mes:
+		     "pickupable" setava it.allowPickupable (items.cpp:705), que e' campo de TILE
+		     ("este tile aceita item pegavel em cima", tile.cpp:662); e "stackable" nem
+		     existe como chave, sai no boot como "Unknown key value". Ligadas de verdade
+		     pelo otb_fix_wire_flags.py em 15/08/2026. -->
+	</item>
+	<item id="45610" article="a" name="piercing shot">
+		<attribute key="description" value="A long bolt with a hardened tip. It punches plate and tears hide; timber swallows it." />
+		<attribute key="weight" value="1200" />
+		<attribute key="moveable" value="1" />
+		<!-- PEGAR e EMPILHAR nao se declaram aqui: moram no items.otb, e so' la'
+		     (items.cpp:485 le FLAG_PICKUPABLE/FLAG_STACKABLE das flags do OTB). As duas
+		     linhas que estavam neste lugar eram placebo, e me enganaram por um mes:
+		     "pickupable" setava it.allowPickupable (items.cpp:705), que e' campo de TILE
+		     ("este tile aceita item pegavel em cima", tile.cpp:662); e "stackable" nem
+		     existe como chave, sai no boot como "Unknown key value". Ligadas de verdade
+		     pelo otb_fix_wire_flags.py em 15/08/2026. -->
+	</item>
+	<item id="45611" article="a" name="incendiary shot">
+		<attribute key="description" value="Pitch and oakum, lit. Wood burns, iron does not." />
+		<attribute key="weight" value="1200" />
+		<attribute key="moveable" value="1" />
+		<!-- PEGAR e EMPILHAR nao se declaram aqui: moram no items.otb, e so' la'
+		     (items.cpp:485 le FLAG_PICKUPABLE/FLAG_STACKABLE das flags do OTB). As duas
+		     linhas que estavam neste lugar eram placebo, e me enganaram por um mes:
+		     "pickupable" setava it.allowPickupable (items.cpp:705), que e' campo de TILE
+		     ("este tile aceita item pegavel em cima", tile.cpp:662); e "stackable" nem
+		     existe como chave, sai no boot como "Unknown key value". Ligadas de verdade
+		     pelo otb_fix_wire_flags.py em 15/08/2026. -->
+	</item>
+	<item id="45600" article="a" name="oak hull planking">
+		<attribute key="description" value="Seasoned oak planking. Cheap, light, and it burns." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45601" article="a" name="iron hull plating">
+		<attribute key="description" value="Riveted iron plate. It soaks more and it weighs." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45602" article="a" name="hide hull sheathing">
+		<attribute key="description" value="Tarred hide over timber. Light, and kind to a repair budget." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45603" article="a" name="canvas sails">
+		<attribute key="description" value="Coarse canvas. It is what makes her move." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45604" article="a" name="deck cannon">
+		<attribute key="description" value="A swivel gun on a deck mount. It turns with the crew." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45605" article="a" name="bow chaser">
+		<attribute key="description" value="Fixed to the bow. To aim it, aim the ship." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45606" article="a" name="ship's rudder">
+		<attribute key="description" value="Oak blade and iron pintles. She answers the helm." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45607" article="a" name="ballast module">
+		<attribute key="description" value="Stone in the bilge. She rides low and takes a hit." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45608" article="a" name="gunner's module">
+		<attribute key="description" value="Racks, rammers and a drilled crew. The guns come back faster." />
+		<attribute key="weight" value="8000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="45627" article="a" name="drying nets">
+		<attribute key="description" value="Hung out to dry on a low frame, cork floats still knotted into the mesh." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="45628" article="a" name="fish crate">
+		<attribute key="description" value="Silver-sided fish packed on crushed ice. This morning's catch, if you are early." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="45629" article="a" name="coiled line and chain">
+		<attribute key="description" value="Hemp cable and iron chain, dropped where the last crew finished with them." />
+		<attribute key="moveable" value="0" />
+	</item>
+	<item id="45630" article="a" name="quay crane">
+		<attribute key="description" value="A short swinging arm with a block and hook. It lifts what two men cannot." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="45631" article="a" name="salting barrels">
+		<attribute key="description" value="Coarse salt to the brim and a wooden scoop standing in it. Fish keeps, or fish is wasted." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="45632" article="a" name="quay lamp">
+		<attribute key="description" value="A glassed lantern on a short iron post. It is what you steer for when you come back late." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="45624" article="a" name="dead reef serpent">
+		<attribute key="moveable" value="0" />
+		<attribute key="description" value="The coils have gone slack and the crest lies flat. Sea water still runs out of it." />
+		<attribute key="containerSize" value="20" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="900" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="45625" article="a" name="dead brine lurker">
+		<attribute key="moveable" value="0" />
+		<attribute key="description" value="Face down, arms flung wide. The gills have stopped." />
+		<attribute key="containerSize" value="20" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="900" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="45626" article="a" name="dead tide swarmer">
+		<attribute key="moveable" value="0" />
+		<attribute key="description" value="On its back, legs curled in over the pale belly, one claw snapped off." />
+		<attribute key="containerSize" value="20" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="900" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="45618" article="a" name="mortar">
+		<attribute key="description" value="A squat iron pot on a heavy bed. It throws its shot over the mast tops, and it is useless at close quarters." />
+		<attribute key="weight" value="9000" />
+		<attribute key="moveable" value="1" />
+	</item>
+	<item id="45619" article="a" name="swivel gun">
+		<attribute key="description" value="A small piece on a forked pin, turned by hand. Little bite, but it never stops biting." />
+		<attribute key="weight" value="3000" />
+		<attribute key="moveable" value="1" />
+	</item>
+	<item id="45620" article="a" name="harpoon launcher">
+		<attribute key="description" value="A barbed iron head and a drum of heavy line. It does not sink ships. It stops them leaving." />
+		<attribute key="weight" value="7000" />
+		<attribute key="moveable" value="1" />
+	</item>
+	<item id="45621" article="a" name="studding sails">
+		<attribute key="description" value="Extra canvas rigged outboard. She flies, and she pays for it the moment anything hits her." />
+		<attribute key="weight" value="5000" />
+		<attribute key="moveable" value="1" />
+	</item>
+	<item id="45622" article="a" name="powder magazine">
+		<attribute key="description" value="Every shot hits harder with the charge close to hand. So does every shot that finds it." />
+		<attribute key="weight" value="6000" />
+		<attribute key="moveable" value="1" />
+	</item>
+	<item id="45623" article="a" name="bilge pump">
+		<attribute key="description" value="It works the water out of her faster than the sea works it in, as long as nobody is shooting. It eats hold space." />
+		<attribute key="weight" value="6000" />
+		<attribute key="moveable" value="1" />
+	</item>
+	<item id="45615" article="a" name="mooring bollard">
+		<attribute key="description" value="A capstan of oak and iron, set into the quay. Ships tie up here, and crews board from it." />
+		<attribute key="moveable" value="0" />
+	</item>
+	<item id="45616" article="a" name="mooring bollard">
+		<attribute key="description" value="Its rope runs taut over the water. A ship lies made fast to it." />
+		<attribute key="moveable" value="0" />
+	</item>
+	<item id="45617" article="a" name="weathered bollard">
+		<attribute key="description" value="Split oak, rusted bands and a frayed rope. It has held more ships than anyone counted." />
+		<attribute key="moveable" value="0" />
+	</item>
+	<item id="45597" article="a" name="shipwright's bench">
+		<attribute key="description" value="Hull ribs, tar and oakum. Ships and their parts are built and mended here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="45598" article="a" name="shipwright's bench">
+		<attribute key="description" value="Hull ribs, tar and oakum. Ships and their parts are built and mended here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="45599" />
+	</item>
+	<item id="45599" article="a" name="shipwright's bench kit">
+		<attribute key="description" value="Use it inside your house to set up a shipwright's bench." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14043" article="a" name="woodworking bench">
+		<attribute key="description" value="Saw, chisel and clamps. Bows, crossbows and ammunition are made here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14054" article="a" name="woodworking bench">
+		<attribute key="description" value="Saw, chisel and clamps. Bows, crossbows and ammunition are made here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14065" />
+	</item>
+	<item id="14065" article="a" name="woodworking bench kit">
+		<attribute key="description" value="Use it inside your house to set up a woodworking bench." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14044" article="a" name="tannery bench">
+		<attribute key="description" value="Hide, awl and waxed thread. For working cured leather." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14055" article="a" name="tannery bench">
+		<attribute key="description" value="Hide, awl and waxed thread. For working cured leather. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14066" />
+	</item>
+	<item id="14066" article="a" name="tannery bench kit">
+		<attribute key="description" value="Use it inside your house to set up a tannery bench." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14045" article="a" name="alchemy bench">
+		<attribute key="description" value="Flasks, mortar and herbs. For brewing and distilling." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14056" article="a" name="alchemy bench">
+		<attribute key="description" value="Flasks, mortar and herbs. For brewing and distilling. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14067" />
+	</item>
+	<item id="14067" article="a" name="alchemy bench kit">
+		<attribute key="description" value="Use it inside your house to set up a alchemy bench." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14046" article="a" name="cooking bench">
+		<attribute key="description" value="A cauldron, a cutting board and fresh produce." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14057" article="a" name="cooking bench">
+		<attribute key="description" value="A cauldron, a cutting board and fresh produce. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14068" />
+	</item>
+	<item id="14068" article="a" name="cooking bench kit">
+		<attribute key="description" value="Use it inside your house to set up a cooking bench." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14047" article="a" name="tailoring bench">
+		<attribute key="description" value="A loom, spools and shears. For working cloth." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14058" article="a" name="tailoring bench">
+		<attribute key="description" value="A loom, spools and shears. For working cloth. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14069" />
+	</item>
+	<item id="14069" article="a" name="tailoring bench kit">
+		<attribute key="description" value="Use it inside your house to set up a tailoring bench." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14048" article="a" name="arcane focus bench">
+		<attribute key="description" value="Amethyst, rune tablet and candlelight. Wands and rods are shaped here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14059" article="a" name="arcane focus bench">
+		<attribute key="description" value="Amethyst, rune tablet and candlelight. Wands and rods are shaped here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14070" />
+	</item>
+	<item id="14070" article="a" name="arcane focus bench kit">
+		<attribute key="description" value="Use it inside your house to set up a arcane focus bench." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14049" article="a" name="smelter">
+		<attribute key="description" value="A stone furnace with crucible and tongs. Raw ore is smelted into bars here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14060" article="a" name="smelter">
+		<attribute key="description" value="A stone furnace with crucible and tongs. Raw ore is smelted into bars here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14071" />
+	</item>
+	<item id="14071" article="a" name="smelter kit">
+		<attribute key="description" value="Use it inside your house to set up a smelter." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14050" article="a" name="sawmill">
+		<attribute key="description" value="A frame saw and a stack of planks. Logs are cut into planks here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14061" article="a" name="sawmill">
+		<attribute key="description" value="A frame saw and a stack of planks. Logs are cut into planks here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14072" />
+	</item>
+	<item id="14072" article="a" name="sawmill kit">
+		<attribute key="description" value="Use it inside your house to set up a sawmill." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14051" article="a" name="tanning rack">
+		<attribute key="description" value="A stretched hide, a scraping knife and a bowl of tannin. Pelts are cured into leather here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14062" article="a" name="tanning rack">
+		<attribute key="description" value="A stretched hide, a scraping knife and a bowl of tannin. Pelts are cured into leather here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14073" />
+	</item>
+	<item id="14073" article="a" name="tanning rack kit">
+		<attribute key="description" value="Use it inside your house to set up a tanning rack." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14052" article="a" name="charcoal kiln">
+		<attribute key="description" value="A domed kiln and a bundle of logs. Wood is burned down into charcoal here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14063" article="a" name="charcoal kiln">
+		<attribute key="description" value="A domed kiln and a bundle of logs. Wood is burned down into charcoal here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14074" />
+	</item>
+	<item id="14074" article="a" name="charcoal kiln kit">
+		<attribute key="description" value="Use it inside your house to set up a charcoal kiln." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14075" article="a" name="smelter">
+		<attribute key="description" value="It is roaring hot." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+		<attribute key="decayto" value="14049" />
+		<attribute key="duration" value="20" />
+	</item>
+	<item id="14076" article="a" name="smelter">
+		<attribute key="description" value="It is roaring hot." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+		<attribute key="decayto" value="14060" />
+		<attribute key="duration" value="20" />
+	</item>
+	<item id="14077" article="a" name="charcoal kiln">
+		<attribute key="description" value="It is roaring hot." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+		<attribute key="decayto" value="14052" />
+		<attribute key="duration" value="20" />
+	</item>
+	<item id="14078" article="a" name="charcoal kiln">
+		<attribute key="description" value="It is roaring hot." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+		<attribute key="decayto" value="14063" />
+		<attribute key="duration" value="20" />
+	</item>
+	<item id="14079" article="a" name="bronze dirk">
+		<attribute key="weight" value="900" />
+		<attribute key="defense" value="6" />
+		<attribute key="attack" value="11" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14080" article="an" name="ironfang stiletto">
+		<attribute key="weight" value="900" />
+		<attribute key="defense" value="6" />
+		<attribute key="attack" value="16" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14081" article="a" name="steel kris">
+		<attribute key="weight" value="900" />
+		<attribute key="defense" value="8" />
+		<attribute key="attack" value="24" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14091" article="a" name="venomfang kris">
+		<attribute key="weight" value="900" />
+		<attribute key="defense" value="8" />
+		<attribute key="attack" value="25" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14092" article="a" name="darksteel fang">
+		<attribute key="weight" value="900" />
+		<attribute key="defense" value="10" />
+		<attribute key="attack" value="33" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14093" article="a" name="bloodletter">
+		<attribute key="weight" value="900" />
+		<attribute key="defense" value="10" />
+		<attribute key="attack" value="34" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14094" article="a" name="mithril shiv">
+		<attribute key="weight" value="900" />
+		<attribute key="defense" value="11" />
+		<attribute key="attack" value="39" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14095" article="a" name="shadowfang dagger">
+		<attribute key="weight" value="900" />
+		<attribute key="defense" value="12" />
+		<attribute key="attack" value="40" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14084" article="a" name="common grindstone">
+		<attribute key="description" value="A common grindstone. Enhances gear up to +2." />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="14085" article="a" name="uncommon grindstone">
+		<attribute key="description" value="A uncommon grindstone. Enhances gear up to +3." />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="14086" article="a" name="rare grindstone">
+		<attribute key="description" value="A rare grindstone. Enhances gear up to +4." />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="14087" article="a" name="epic grindstone">
+		<attribute key="description" value="A epic grindstone. Enhances gear up to +6." />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="14088" article="a" name="legendary grindstone">
+		<attribute key="description" value="A legendary grindstone. Enhances gear up to +8." />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="14089" article="a" name="mythic grindstone">
+		<attribute key="description" value="A mythic grindstone. Enhances gear up to +9." />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="14090" article="a" name="celestial grindstone">
+		<attribute key="description" value="A celestial grindstone. Enhances gear up to +10." />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="14082" article="a" name="protection charm">
+		<attribute key="description" value="Prevents a catastrophic failure from dropping the upgrade level." />
+		<attribute key="weight" value="20" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14083" article="a" name="blessed oil">
+		<attribute key="description" value="Raises the chance of a successful upgrade." />
+		<attribute key="weight" value="20" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14096" name="flax">
+		<attribute key="description" value="A bundle of raw flax, ready for the loom." />
+		<attribute key="weight" value="80" />
+	</item>
+	<item id="14097" name="hemp">
+		<attribute key="description" value="Coarse hemp fibre. Stronger than flax." />
+		<attribute key="weight" value="90" />
+	</item>
+	<item id="14098" name="nettle fibre">
+		<attribute key="description" value="Stinging nettle stems, retted into fibre." />
+		<attribute key="weight" value="85" />
+	</item>
+	<item id="14099" name="gossamer">
+		<attribute key="description" value="Spider silk gathered from a heavy web." />
+		<attribute key="weight" value="40" />
+	</item>
+	<item id="14100" name="heartfibre">
+		<attribute key="description" value="Fibre from a heartbloom. It hums faintly." />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="14101" name="linen cloth">
+		<attribute key="description" value="A bolt of plain linen." />
+		<attribute key="weight" value="200" />
+	</item>
+	<item id="14102" name="hemp cloth">
+		<attribute key="description" value="A bolt of sturdy hempcloth." />
+		<attribute key="weight" value="220" />
+	</item>
+	<item id="14103" name="nettle cloth">
+		<attribute key="description" value="A bolt of nettlecloth, light and tough." />
+		<attribute key="weight" value="210" />
+	</item>
+	<item id="14104" name="silk cloth">
+		<attribute key="description" value="A bolt of woven silk." />
+		<attribute key="weight" value="150" />
+	</item>
+	<item id="14105" name="heartweave">
+		<attribute key="description" value="A bolt of heartweave. The pattern seems to shift." />
+		<attribute key="weight" value="170" />
+	</item>
+	<item id="14106" name="flax patch">
+		<attribute key="description" value="Flax ready for harvest. A sickle will do." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14107" name="harvested flax patch">
+		<attribute key="description" value="The flax has been cut." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14108" name="hemp patch">
+		<attribute key="description" value="Tall hemp, ready for harvest." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14109" name="harvested hemp patch">
+		<attribute key="description" value="The hemp has been cut." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14110" name="nettle patch">
+		<attribute key="description" value="A dense stand of nettles. Mind the sting." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14111" name="harvested nettle patch">
+		<attribute key="description" value="The nettles have been cut back." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14112" name="heavy web">
+		<attribute key="description" value="A thick spider web, dense with gossamer." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14113" name="stripped web">
+		<attribute key="description" value="The web has been stripped bare." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14114" name="heartbloom">
+		<attribute key="description" value="A heartbloom in flower. Its fibre is prized." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14115" name="spent heartbloom">
+		<attribute key="description" value="The heartbloom has been harvested." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14121" name="faint pigment">
+		<attribute key="weight" value="20" />
+		<attribute key="description" value="A raw pigment, tier 1. Dyers and alchemists want it." />
+	</item>
+	<item id="14122" name="ochre pigment">
+		<attribute key="weight" value="20" />
+		<attribute key="description" value="A raw pigment, tier 2. Dyers and alchemists want it." />
+	</item>
+	<item id="14123" name="verdant pigment">
+		<attribute key="weight" value="20" />
+		<attribute key="description" value="A raw pigment, tier 3. Dyers and alchemists want it." />
+	</item>
+	<item id="14124" name="pearl pigment">
+		<attribute key="weight" value="20" />
+		<attribute key="description" value="A raw pigment, tier 4. Dyers and alchemists want it." />
+	</item>
+	<item id="14125" name="heartdye">
+		<attribute key="weight" value="20" />
+		<attribute key="description" value="A raw pigment, tier 5. Dyers and alchemists want it." />
+	</item>
+	<item id="14136" name="crystallised sap">
+		<attribute key="weight" value="35" />
+		<attribute key="description" value="Hardened tree sap. Smiths temper high-grade alloys with it." />
+	</item>
+	<item id="14137" name="loom">
+		<attribute key="description" value="A weaving loom. Spin fibre into cloth here." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14138" name="loom">
+		<attribute key="description" value="A weaving loom. Spin fibre into cloth here. Rotate it to pack it back into its kit." />
+		<attribute key="moveable" value="1" />
+		<attribute key="blocking" value="1" />
+		<attribute key="rotateto" value="14139" />
+	</item>
+	<item id="14139" name="loom kit">
+		<attribute key="description" value="Use it inside your house to set up a loom." />
+		<attribute key="weight" value="4000" />
+		<attribute key="moveable" value="1" />
+		<attribute key="pickupable" value="1" />
+	</item>
+	<item id="14158" name="red dye">
+		<attribute key="weight" value="15" />
+		<attribute key="description" value="A pouch of red dye. Used at a tailoring bench to colour cloth gear." />
+	</item>
+	<item id="14159" name="blue dye">
+		<attribute key="weight" value="15" />
+		<attribute key="description" value="A pouch of blue dye. Used at a tailoring bench to colour cloth gear." />
+	</item>
+	<item id="14160" name="green dye">
+		<attribute key="weight" value="15" />
+		<attribute key="description" value="A pouch of green dye. Used at a tailoring bench to colour cloth gear." />
+	</item>
+	<item id="14161" name="yellow dye">
+		<attribute key="weight" value="15" />
+		<attribute key="description" value="A pouch of yellow dye. Used at a tailoring bench to colour cloth gear." />
+	</item>
+	<item id="14162" name="purple dye">
+		<attribute key="weight" value="15" />
+		<attribute key="description" value="A pouch of purple dye. Used at a tailoring bench to colour cloth gear." />
+	</item>
+	<item id="14163" name="orange dye">
+		<attribute key="weight" value="15" />
+		<attribute key="description" value="A pouch of orange dye. Used at a tailoring bench to colour cloth gear." />
+	</item>
+	<item id="14164" name="black dye">
+		<attribute key="weight" value="15" />
+		<attribute key="description" value="A pouch of black dye. Used at a tailoring bench to colour cloth gear." />
+	</item>
+	<item id="14165" name="white dye">
+		<attribute key="weight" value="15" />
+		<attribute key="description" value="A pouch of white dye. Used at a tailoring bench to colour cloth gear." />
+	</item>
+	<item id="14140" name="iron greatsword">
+		<attribute key="weight" value="6000" />
+		<attribute key="attack" value="38" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14141" name="steel crossbow">
+		<attribute key="weight" value="5000" />
+		<attribute key="attack" value="12" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+	</item>
+	<item id="14142" name="darksteel crossbow">
+		<attribute key="weight" value="5200" />
+		<attribute key="attack" value="16" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+	</item>
+	<item id="14143" name="thick leather boots">
+		<attribute key="weight" value="1400" />
+		<attribute key="armor" value="2" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14144" name="dragonleather boots">
+		<attribute key="weight" value="1700" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14145" name="dragonleather legs">
+		<attribute key="weight" value="2600" />
+		<attribute key="armor" value="6" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14146" name="iron sabatons">
+		<attribute key="weight" value="2500" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14147" name="steel sabatons">
+		<attribute key="weight" value="2700" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14148" name="darksteel sabatons">
+		<attribute key="weight" value="2900" />
+		<attribute key="armor" value="4" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14149" name="darksteel javelin">
+		<attribute key="weight" value="1800" />
+		<attribute key="attack" value="50" />
+		<attribute key="weaponType" value="distance" />
+	</item>
+	<item id="14166" name="light leather armor">
+		<attribute key="weight" value="5500" />
+		<attribute key="armor" value="4" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14167" name="thick leather armor">
+		<attribute key="weight" value="6000" />
+		<attribute key="armor" value="6" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14168" name="beasthide armor">
+		<attribute key="weight" value="6500" />
+		<attribute key="armor" value="8" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14169" name="dragonleather armor">
+		<attribute key="weight" value="7000" />
+		<attribute key="armor" value="10" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14170" name="heartpelt armor">
+		<attribute key="weight" value="7500" />
+		<attribute key="armor" value="12" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14171" name="light leather cap">
+		<attribute key="weight" value="1800" />
+		<attribute key="armor" value="2" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14172" name="thick leather cap">
+		<attribute key="weight" value="2100" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14173" name="beasthide cap">
+		<attribute key="weight" value="2400" />
+		<attribute key="armor" value="4" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14174" name="dragonleather cap">
+		<attribute key="weight" value="2700" />
+		<attribute key="armor" value="5" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14175" name="heartpelt cap">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="6" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14176" name="light leather boots">
+		<attribute key="weight" value="900" />
+		<attribute key="armor" value="1" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14177" name="beasthide boots">
+		<attribute key="weight" value="1550" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14178" name="heartpelt boots">
+		<attribute key="weight" value="1900" />
+		<attribute key="armor" value="5" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14179" name="bronze cuirass">
+		<attribute key="weight" value="10000" />
+		<attribute key="armor" value="6" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14180" name="iron cuirass">
+		<attribute key="weight" value="10800" />
+		<attribute key="armor" value="9" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14181" name="steel cuirass">
+		<attribute key="weight" value="11600" />
+		<attribute key="armor" value="12" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14183" name="darksteel cuirass">
+		<attribute key="weight" value="12400" />
+		<attribute key="armor" value="15" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14184" name="mithril cuirass">
+		<attribute key="weight" value="13200" />
+		<attribute key="armor" value="18" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14185" name="bronze helm">
+		<attribute key="weight" value="3600" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14186" name="iron helm">
+		<attribute key="weight" value="3950" />
+		<attribute key="armor" value="5" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14187" name="steel helm">
+		<attribute key="weight" value="4300" />
+		<attribute key="armor" value="7" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14188" name="darksteel helm">
+		<attribute key="weight" value="4650" />
+		<attribute key="armor" value="9" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14189" name="mithril helm">
+		<attribute key="weight" value="5000" />
+		<attribute key="armor" value="11" />
+		<attribute key="slotType" value="head" />
+	</item>
+	<item id="14190" name="bronze sabatons">
+		<attribute key="weight" value="2200" />
+		<attribute key="armor" value="2" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14191" name="mithril sabatons">
+		<attribute key="weight" value="3100" />
+		<attribute key="armor" value="6" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14192" name="light leather legs">
+		<attribute key="weight" value="1800" />
+		<attribute key="armor" value="2" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14193" name="thick leather legs">
+		<attribute key="weight" value="2100" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14194" name="beasthide legs">
+		<attribute key="weight" value="2350" />
+		<attribute key="armor" value="5" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14195" name="heartpelt legs">
+		<attribute key="weight" value="3000" />
+		<attribute key="armor" value="8" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14196" name="bronze greaves">
+		<attribute key="weight" value="4500" />
+		<attribute key="armor" value="4" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14197" name="iron greaves">
+		<attribute key="weight" value="4900" />
+		<attribute key="armor" value="6" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14198" name="steel greaves">
+		<attribute key="weight" value="5300" />
+		<attribute key="armor" value="8" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14199" name="darksteel greaves">
+		<attribute key="weight" value="5700" />
+		<attribute key="armor" value="10" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14200" name="mithril greaves">
+		<attribute key="weight" value="6100" />
+		<attribute key="armor" value="12" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14201" name="bronze shield">
+		<attribute key="weight" value="5000" />
+		<attribute key="defense" value="12" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="14202" name="iron shield">
+		<attribute key="weight" value="5600" />
+		<attribute key="defense" value="20" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="14203" name="steel kite shield">
+		<attribute key="weight" value="6100" />
+		<attribute key="defense" value="28" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="14204" name="darksteel shield">
+		<attribute key="weight" value="6600" />
+		<attribute key="defense" value="35" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="14205" name="mithril shield">
+		<attribute key="weight" value="7000" />
+		<attribute key="defense" value="42" />
+		<attribute key="weaponType" value="shield" />
+	</item>
+	<item id="14150" name="bronze sword">
+		<attribute key="weight" value="3500" />
+		<attribute key="attack" value="17" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14151" name="bronze greatsword">
+		<attribute key="weight" value="7000" />
+		<attribute key="attack" value="33" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14152" name="bronze axe">
+		<attribute key="weight" value="1800" />
+		<attribute key="attack" value="14" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14153" name="bronze mace">
+		<attribute key="weight" value="3800" />
+		<attribute key="attack" value="18" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="14154" name="pine bow">
+		<attribute key="weight" value="3100" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="slotType" value="two-handed" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="range" value="6" />
+	</item>
+	<item id="14155" name="bronze crossbow">
+		<attribute key="weight" value="4000" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="slotType" value="two-handed" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+	</item>
+	<item id="14156" name="pine wand">
+		<attribute key="weight" value="2500" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14157" name="pine rod">
+		<attribute key="weight" value="2500" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="smallearth" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14206" article="a" name="ballista turret">
+		<attribute key="description" value="A mounted bolt thrower." />
+	</item>
+	<item id="14207" article="a" name="ballista turret">
+		<attribute key="description" value="A mounted bolt thrower." />
+	</item>
+	<item id="14208" article="a" name="ballista turret">
+		<attribute key="description" value="A mounted bolt thrower." />
+	</item>
+	<item id="14209" article="a" name="ballista turret">
+		<attribute key="description" value="A mounted bolt thrower." />
+	</item>
+	<item id="14210" article="a" name="ballista turret">
+		<attribute key="description" value="A mounted bolt thrower." />
+	</item>
+	<item id="14211" article="a" name="ballista turret">
+		<attribute key="description" value="A mounted bolt thrower." />
+	</item>
+	<item id="14212" article="a" name="ballista turret">
+		<attribute key="description" value="A mounted bolt thrower." />
+	</item>
+	<item id="14213" article="a" name="ballista turret">
+		<attribute key="description" value="A mounted bolt thrower." />
+	</item>
+	<item id="14214" article="a" name="rough ruby">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14215" article="a" name="chipped ruby">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14216" article="a" name="cut ruby">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14217" article="a" name="polished ruby">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14218" article="a" name="flawless ruby">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14219" article="a" name="rough topaz">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14220" article="a" name="chipped topaz">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14221" article="a" name="cut topaz">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14222" article="a" name="polished topaz">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14223" article="a" name="flawless topaz">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14224" article="a" name="rough sapphire">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14225" article="a" name="chipped sapphire">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14226" article="a" name="cut sapphire">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14227" article="a" name="polished sapphire">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14228" article="a" name="flawless sapphire">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14229" article="a" name="rough diamond">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14230" article="a" name="chipped diamond">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14231" article="a" name="cut diamond">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14232" article="a" name="polished diamond">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14233" article="a" name="flawless diamond">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14234" article="a" name="rough amethyst">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14235" article="a" name="chipped amethyst">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14236" article="a" name="cut amethyst">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14237" article="a" name="polished amethyst">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14238" article="a" name="flawless amethyst">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14239" article="a" name="rough emerald">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14240" article="a" name="chipped emerald">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14241" article="a" name="cut emerald">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14242" article="a" name="polished emerald">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14243" article="a" name="flawless emerald">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14244" article="a" name="rough onyx">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14245" article="a" name="chipped onyx">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14246" article="a" name="cut onyx">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14247" article="a" name="polished onyx">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14248" article="a" name="flawless onyx">
+		<attribute key="weight" value="30" />
+		<attribute key="description" value="A gem that can be socketed." />
+	</item>
+	<item id="14249" article="a" name="mithril greatblade">
+		<attribute key="weight" value="4200" />
+		<attribute key="attack" value="52" />
+		<attribute key="weaponType" value="sword" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14250" article="a" name="mithril greataxe">
+		<attribute key="weight" value="9000" />
+		<attribute key="attack" value="52" />
+		<attribute key="weaponType" value="axe" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14251" article="a" name="bloodforged greataxe">
+		<attribute key="weight" value="9000" />
+		<attribute key="attack" value="52" />
+		<attribute key="weaponType" value="axe" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14252" article="a" name="mithril warhammer">
+		<attribute key="weight" value="7000" />
+		<attribute key="attack" value="53" />
+		<attribute key="weaponType" value="club" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14253" article="a" name="bloodforged warhammer">
+		<attribute key="weight" value="7000" />
+		<attribute key="attack" value="53" />
+		<attribute key="weaponType" value="club" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14254" article="a" name="oak bow">
+		<attribute key="weight" value="3100" />
+		<attribute key="attack" value="2" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="range" value="6" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14255" article="a" name="ash bow">
+		<attribute key="weight" value="3100" />
+		<attribute key="attack" value="3" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="range" value="6" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14256" article="a" name="ebony bow">
+		<attribute key="weight" value="3100" />
+		<attribute key="attack" value="4" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="range" value="6" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14257" article="a" name="elderwood bow">
+		<attribute key="weight" value="3100" />
+		<attribute key="attack" value="5" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="range" value="6" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14258" article="a" name="bloodwood bow">
+		<attribute key="weight" value="3100" />
+		<attribute key="attack" value="5" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="arrow" />
+		<attribute key="range" value="6" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14259" article="a" name="iron crossbow">
+		<attribute key="weight" value="8400" />
+		<attribute key="attack" value="9" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14260" article="a" name="tempered crossbow">
+		<attribute key="weight" value="8400" />
+		<attribute key="attack" value="9" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14261" article="a" name="mithril arbalest">
+		<attribute key="weight" value="5000" />
+		<attribute key="attack" value="12" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14262" article="a" name="venomed arbalest">
+		<attribute key="weight" value="5000" />
+		<attribute key="attack" value="12" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14263" article="a" name="bloodforged arbalest">
+		<attribute key="weight" value="5200" />
+		<attribute key="attack" value="16" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14264" article="a" name="burnished arbalest">
+		<attribute key="weight" value="5200" />
+		<attribute key="attack" value="16" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14265" article="a" name="mithril crossbow">
+		<attribute key="weight" value="5200" />
+		<attribute key="attack" value="20" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14266" article="a" name="frostbound arbalest">
+		<attribute key="weight" value="5200" />
+		<attribute key="attack" value="20" />
+		<attribute key="weaponType" value="distance" />
+		<attribute key="ammoType" value="bolt" />
+		<attribute key="range" value="5" />
+		<attribute key="slotType" value="two-handed" />
+	</item>
+	<item id="14276" article="a" name="azure wand">
+		<attribute key="weight" value="2200" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14277" article="a" name="amber wand">
+		<attribute key="weight" value="2200" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="earth" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14278" article="a" name="void wand">
+		<attribute key="weight" value="2800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="death" />
+		<attribute key="range" value="5" />
+	</item>
+	<item id="14279" article="a" name="verdant rod">
+		<attribute key="weight" value="2200" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="smallearth" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14281" article="a" name="starlit wand">
+		<attribute key="weight" value="2800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="5" />
+	</item>
+	<item id="14282" article="a" name="ember rod">
+		<attribute key="weight" value="2400" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="fire" />
+		<attribute key="range" value="4" />
+	</item>
+	<item id="14283" article="a" name="astral rod">
+		<attribute key="weight" value="2800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="holy" />
+		<attribute key="range" value="5" />
+	</item>
+	<item id="14284" article="a" name="dusk rod">
+		<attribute key="weight" value="2400" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="death" />
+		<attribute key="range" value="4" />
+	</item>
+	<item id="14285" article="a" name="gilded rod">
+		<attribute key="weight" value="2000" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="holy" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14286" article="a" name="frost rod">
+		<attribute key="weight" value="2200" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="ice" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14287" article="a" name="scarlet rod">
+		<attribute key="weight" value="2800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="fire" />
+		<attribute key="range" value="5" />
+	</item>
+	<item id="14288" article="a" name="gale rod">
+		<attribute key="weight" value="2600" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="4" />
+	</item>
+	<item id="14296" article="a" name="bronze ring">
+		<attribute key="weight" value="80" />
+		<attribute key="slotType" value="ring" />
+	</item>
+	<item id="14297" article="a" name="iron ring">
+		<attribute key="weight" value="90" />
+		<attribute key="slotType" value="ring" />
+	</item>
+	<item id="14298" article="a" name="steel ring">
+		<attribute key="weight" value="90" />
+		<attribute key="slotType" value="ring" />
+	</item>
+	<item id="14299" article="a" name="darksteel ring">
+		<attribute key="weight" value="100" />
+		<attribute key="slotType" value="ring" />
+	</item>
+	<item id="14300" article="a" name="mithril ring">
+		<attribute key="weight" value="70" />
+		<attribute key="slotType" value="ring" />
+	</item>
+	<item id="14301" article="a" name="bronze amulet">
+		<attribute key="weight" value="380" />
+		<attribute key="slotType" value="necklace" />
+	</item>
+	<item id="14302" article="a" name="iron amulet">
+		<attribute key="weight" value="420" />
+		<attribute key="slotType" value="necklace" />
+	</item>
+	<item id="14303" article="a" name="steel amulet">
+		<attribute key="weight" value="420" />
+		<attribute key="slotType" value="necklace" />
+	</item>
+	<item id="14304" article="a" name="darksteel amulet">
+		<attribute key="weight" value="460" />
+		<attribute key="slotType" value="necklace" />
+	</item>
+	<item id="14305" article="a" name="mithril amulet">
+		<attribute key="weight" value="320" />
+		<attribute key="slotType" value="necklace" />
+	</item>
+	<item id="14306" article="an" name="fire essence">
+		<attribute key="weight" value="30" />
+	</item>
+	<item id="14307" article="an" name="water essence">
+		<attribute key="weight" value="30" />
+	</item>
+	<item id="14308" article="an" name="earth essence">
+		<attribute key="weight" value="30" />
+	</item>
+	<item id="14309" article="an" name="energy essence">
+		<attribute key="weight" value="30" />
+	</item>
+	<item id="14310" article="an" name="light essence">
+		<attribute key="weight" value="30" />
+	</item>
+	<item id="14311" article="an" name="darkness essence">
+		<attribute key="weight" value="30" />
+	</item>
+	<item id="14312" article="an" name="air essence">
+		<attribute key="weight" value="30" />
+	</item>
+	<item id="14267" name="oak wand">
+		<attribute key="weight" value="2600" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14268" name="oak rod">
+		<attribute key="weight" value="2600" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="smallearth" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14269" name="ash wand">
+		<attribute key="weight" value="2700" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14270" name="ash rod">
+		<attribute key="weight" value="2700" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="smallearth" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14271" name="ebony wand">
+		<attribute key="weight" value="2800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14272" name="ebony rod">
+		<attribute key="weight" value="2800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="smallearth" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14273" name="elderwood wand">
+		<attribute key="weight" value="2900" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="energy" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14274" name="elderwood rod">
+		<attribute key="weight" value="2900" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="smallearth" />
+		<attribute key="range" value="3" />
+	</item>
+	<item id="14116" name="linen leggings">
+		<attribute key="weight" value="1200" />
+		<attribute key="armor" value="8" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14117" name="hemp leggings">
+		<attribute key="weight" value="1200" />
+		<attribute key="armor" value="10" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14118" name="nettle leggings">
+		<attribute key="weight" value="1200" />
+		<attribute key="armor" value="12" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14119" name="silk leggings">
+		<attribute key="weight" value="1200" />
+		<attribute key="armor" value="14" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14120" name="heartweave leggings">
+		<attribute key="weight" value="1200" />
+		<attribute key="armor" value="16" />
+		<attribute key="slotType" value="legs" />
+	</item>
+	<item id="14126" name="linen robe">
+		<attribute key="weight" value="2200" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14127" name="hemp robe">
+		<attribute key="weight" value="2200" />
+		<attribute key="armor" value="5" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14128" name="nettle robe">
+		<attribute key="weight" value="2200" />
+		<attribute key="armor" value="7" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14129" name="silk robe">
+		<attribute key="weight" value="2200" />
+		<attribute key="armor" value="9" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14130" name="heartweave robe">
+		<attribute key="weight" value="2200" />
+		<attribute key="armor" value="11" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="14131" name="linen shoes">
+		<attribute key="weight" value="600" />
+		<attribute key="armor" value="1" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14132" name="hemp shoes">
+		<attribute key="weight" value="600" />
+		<attribute key="armor" value="1" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14133" name="nettle shoes">
+		<attribute key="weight" value="600" />
+		<attribute key="armor" value="2" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14134" name="silk shoes">
+		<attribute key="weight" value="600" />
+		<attribute key="armor" value="2" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="14135" name="heartweave shoes">
+		<attribute key="weight" value="600" />
+		<attribute key="armor" value="3" />
+		<attribute key="slotType" value="feet" />
+	</item>
+	<item id="13995" name="depleted coal vein">
+		<attribute key="description" value="An exhausted coal seam." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="13996" name="copper vein">
+		<attribute key="description" value="A vein of copper ore. Any pickaxe will do." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="13997" name="depleted copper vein">
+		<attribute key="description" value="An exhausted copper vein." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="13998" name="tin vein">
+		<attribute key="description" value="A vein of tin ore. Any pickaxe will do." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="13999" name="depleted tin vein">
+		<attribute key="description" value="An exhausted tin vein." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14000" name="iron vein">
+		<attribute key="description" value="A vein of iron ore. Any pickaxe will do." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14001" name="depleted iron vein">
+		<attribute key="description" value="An exhausted iron vein." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14002" name="obsidian vein">
+		<attribute key="description" value="Obsidian embedded in volcanic rock." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14003" name="depleted obsidian vein">
+		<attribute key="description" value="An exhausted obsidian vein." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14004" name="heartstone vein">
+		<attribute key="description" value="A heartstone lodged in the mountain's core." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<item id="14005" name="depleted heartstone vein">
+		<attribute key="description" value="An exhausted heartstone vein." />
+		<attribute key="moveable" value="0" />
+		<attribute key="blocking" value="1" />
+	</item>
+	<!-- ==== fim PRIDEXIA ==== -->
 </items>
