@@ -2204,6 +2204,35 @@
 		</raw>
 	</tileset>
 <!-- ==== PRIDEXIA (gerado por rme-palette/build_rme_palette.py) ==== -->
+	<tileset name="Pridexia NOS de coleta (colocar ESTE, nao o vazio)">
+		<items>
+			<item id="13994"/>
+			<item id="13996"/>
+			<item id="13998"/>
+			<item id="14000"/>
+			<item id="14002"/>
+			<item id="14004"/>
+			<item id="14017"/>
+			<item id="14019"/>
+			<item id="14021"/>
+			<item id="14023"/>
+			<item id="14025"/>
+			<item id="14027"/>
+			<item id="14040"/>
+			<item id="14106"/>
+			<item id="14108"/>
+			<item id="14110"/>
+			<item id="14112"/>
+			<item id="14114"/>
+		</items>
+	</tileset>
+	<tileset name="Pridexia ESTACOES fixas (a forma do mapa)">
+		<items>
+			<item fromid="14042" toid="14052"/>
+			<item id="14137"/>
+			<item id="45597"/>
+		</items>
+	</tileset>
 	<tileset name="Pridexia metal">
 		<items>
 			<item id="5880"/>
